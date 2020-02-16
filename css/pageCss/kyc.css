@@ -1,0 +1,293 @@
+.main-menu {
+    align-self: center;
+    position: absolute;
+    text-align: right;
+    right: 96px;
+    z-index: 99;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: normal;
+    color: #323232;
+    font-size: 13px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    font-weight: 600;
+}
+
+.checkbox-tick label.male {
+    margin-right: 26px;
+}
+
+.checkbox-tick label {
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 23px;
+    position: relative;
+    /* width: 100%; */
+}
+
+.checkbox-tick input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkbox-tick input:checked~.checkmark {
+    background: #999;
+}
+
+.checkbox-tick .checkmark {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    font-family: Material-Design-Iconic-Font;
+    color: #fff;
+    font-size: 11px;
+}
+
+.checkbox-tick input:checked~.checkmark:after {
+    display: block;
+}
+
+.checkbox-tick .checkmark:after {
+    top: 2px;
+    left: 6px;
+    position: absolute;
+    display: none;
+    content: '\f26b';
+}
+
+.text-sty {
+    font-size: 14px;
+    color: #888;
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+}
+
+.p-c {
+
+    font-size: 20px;
+    color: #76a904;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+
+.form-header {
+    display: flex;
+}
+
+.form-header .avartar {
+    width: 33.75%;
+}
+
+.form-header .avartar a {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.avartar-picker {
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.avartar-picker .inputfile {
+    display: none;
+}
+
+/* input, textarea, select, button {
+font-family: "Poppins-Regular";
+font-size: 13px;
+color: #333;
+} */
+.avartar-picker {
+    display: block;
+    cursor: pointer;
+    display: inline-block;
+    color: #333;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.avartar-picker i {
+    margin-right: 3px;
+}
+
+.zmdi {
+    display: inline-block;
+
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.zmdi-camera:before {
+    content: '\f28c';
+}
+
+.avartar-picker {
+    display: block;
+    cursor: pointer;
+    display: inline-block;
+    color: #333;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.checkbox-tick label .error {
+    /* float: right;
+padding-top: 7px;
+text-align: right;
+margin-top: -25px; */
+}
+
+
+.checkbox-circle {
+    position: relative;
+    padding-left: 0px;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.checkbox-circle label {
+    padding-left: 30px;
+    cursor: pointer;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.9;
+    transform: translateY(-5px);
+}
+
+.checkbox-circle input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkbox-circle .checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: 1px solid #999;
+}
+
+.checkbox-circle input:checked~.checkmark:after {
+    display: block;
+}
+
+.checkbox-circle .checkmark:after {
+    content: "";
+    top: 2px;
+    left: 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #999;
+    position: absolute;
+    display: none;
+}
+
+
+
+/* .form-group .error {
+float:right;
+} */
+
+
+.avatar-upload {
+    position: relative;
+    max-width: 205px;
+    margin: 50px auto;
+}
+
+.avatar-upload .avatar-edit {
+    position: absolute;
+    right: -142px;
+    z-index: 1;
+    top: 10px;
+    width: 100%;
+}
+
+.avatar-upload .avatar-edit input {
+    display: none;
+}
+
+.avatar-upload .avatar-edit input+label {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 0;
+    border-radius: 100%;
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+
+.avatar-upload .avatar-edit input+label:hover {
+    background: #f1f1f1;
+    border-color: #d6d6d6;
+}
+
+.avatar-upload .avatar-edit input+label:after {
+    content: "\f040";
+    font-family: 'FontAwesome';
+    color: #76a904;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+}
+
+.avatar-upload .avatar-preview {
+    width: 192px;
+    height: 192px;
+    position: relative;
+    border-radius: 100%;
+    border: 6px solid #f8f8f8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-upload .avatar-preview>div {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 20px;
+
+}
+
+
+h1>small {
+    display: block;
+    font-size: 15px;
+    padding-top: 8px;
+    color: gray;
+}

@@ -1,0 +1,430 @@
+.main-menu {
+    align-self: center;
+    position: absolute;
+    text-align: right;
+    right: 96px;
+    z-index: 99;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: normal;
+    color: #323232;
+    font-size: 13px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    font-weight: 600;
+}
+
+.flat-row.contact-1 {
+    padding-bottom: 65px;
+}
+.flat-row {
+    clear: both;
+    display: block;
+    position: relative;
+    padding: 100px 0;
+    width: 100%;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container {
+    max-width: 100%;
+}
+@media (min-width: 1200px){
+.container {
+    width: 1200px;
+}
+}
+@media (min-width: 992px){
+.container {
+    width: 970px;
+}
+}
+@media (min-width: 768px){
+.container {
+    width: 750px;
+}
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.flat-information {
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 30px;
+    padding-right: 12px;
+}
+@media (min-width: 768px){
+.col-sm-4 {
+    width: 33.33333333%;
+}
+}
+@media (min-width: 768px){
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+}
+}
+.flat-information.email {
+    line-height: 21px;
+}
+.flat-information {
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 30px;
+    padding-right: 12px;
+}
+.flat-information.phone {
+    line-height: 19px;
+}
+.flat-information > span {
+    display: inline-block;
+    width: 67px;
+    line-height: 65px;
+    border: 1px solid #76a904;
+    border-radius: 2px;
+    font-size: 24px;
+    color: #76a904;
+    margin-bottom: 20px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-map-marker:before {
+    content: "\f041";
+}
+.fa-map-marker:before {
+    content: "\f041";
+}
+.flat-information h5 {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+.flat-information .address {
+    max-width: 230px;
+    margin: auto;
+}
+.flat-information:not(:last-child):after {
+    content: '';
+    height: 167px;
+    top: 15px;
+    width: 1px;
+    position: absolute;
+    right: 0;
+    background: #ebebeb;
+}
+.flat-information .fa-envelope {
+    font-size: 19px;
+    margin-bottom: 18px;
+}
+.flat-information.email h5 {
+    margin-bottom: 7px;
+}
+.flat-information h5 {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+.flat-information .fa-phone {
+    margin-bottom: 18px;
+}
+.flat-information.phone h5 {
+    margin-bottom: 6px;
+}
+.flat-information.phone a {
+    padding-right: 4px;
+}
+.flat-information.phone a {
+    padding-right: 4px;
+}
+
+
+
+.flat-row.contact-2 {
+    padding-top: 0;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.flat-row.contact-2 .reservation-page-form {
+    padding-top: 29px;
+}
+.flat-row.contact-2 .title-section {
+    margin-bottom: 46px;
+}
+.title-section {
+    text-align: center;
+}
+.reservation-page-left .reservation-page-form #reservation-form {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.title-section .title {
+    font-weight: 500;
+    line-height: 30px;
+    position: relative;
+    display: inline-block;
+}
+.reservation-page-left .reservation-page-form .reservation-page-input-box, .reservation-page-textarea {
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 19px;
+}
+.reservation-page-left .reservation-page-form .reservation-page-input-box input[type="text"], .reservation-page-left .reservation-page-form .reservation-page-input-box input[type="email"] {
+    margin-bottom: 0;
+}
+.reservation-page-left .reservation-page-form .reservation-page-input-box, .reservation-page-textarea {
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 19px;
+}
+.reservation-page-textarea {
+    width: 100%;
+}
+.reservation-page-left .reservation-page-form .reservation-page-input-box, .reservation-page-textarea {
+    /* width: 50%; */
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 19px;
+}
+.reservation-page-left .reservation-page-form .reservation-page-input-box label, .reservation-page-textarea label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 2px;
+    width: 100%;
+}
+.reservation-page-textarea textarea {
+    min-height: 120px;
+    font-size: 12px;
+    padding-top: 12px;
+    margin-bottom: 0;
+}
+textarea.form-control {
+    height: auto;
+}
+
+.reservation-page-left .reservation-page-form #reservation-form .reservation-booking {
+    text-align: center;
+}
+.reservation-page-left .reservation-page-form #reservation-form .reservation-booking button {
+    background-color: #76a904;
+    border-radius: 2px;
+    margin-top: 6px;
+    padding: 15px 29.5px 14px 29.5px;
+    min-width: 160px;
+    position: relative;
+    z-index: 1;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    border: 2px solid #76a904;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 14.5px 30px;
+    background-color: #76a904;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    letter-spacing: 0.6px;
+}
+.read-more.view-all a:before, .reservation-page-left .reservation-page-form #reservation-form .reservation-booking 
+ button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #222;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.reservation-page-left .reservation-page-form .reservation-page-input-box {
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 19px;
+}
+input[type="text"] {
+    -webkit-appearance: none;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    color: #000;
+}
+
+
+input[type="text"]:focus {
+border: 1px solid #76a904;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+}
+.reservation-page-left .reservation-page-form .reservation-page-input-box input[type="email"] {
+    margin-bottom: 0;
+}
+input[type="email"]{
+
+    -webkit-appearance: none;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    color: #000;
+
+
+}
+input[type="text"]{
+-webkit-appearance: none;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    color: #000;
+    
+}
+textarea{
+-webkit-appearance: none;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    color: #000;
+    
+}
+input[type="email"]
+{
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    height: 44px;
+    padding-left: 15px;
+    font-size: 12px;
+    outline: none;
+    margin-bottom: 30px;
+    width: 100%;
+    border-radius: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="text"]
+{
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    height: 44px;
+    padding-left: 15px;
+    font-size: 12px;
+    outline: none;
+    margin-bottom: 30px;
+    width: 100%;
+    border-radius: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+textarea
+{
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    height: 44px;
+    padding-left: 15px;
+    font-size: 12px;
+    outline: none;
+    margin-bottom: 30px;
+    width: 100%;
+    border-radius: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+textarea:focus {
+    border: 1px solid #76a904;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+input[type="email"]:focus,input[type="text"]:focus,textarea:focus {
+    border: 1px solid #76a904;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.reservation-page-left .reservation-page-form .reservation-page-input-box {
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 19px;
+}
+.reservation-page-left .reservation-page-form .reservation-page-input-box input[type="text"] {
+    margin-bottom: 0;
+}
+.reservation-page-textarea {
+   
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 19px;
+}
+
+/* a ,p {
+    color: #656161 !important;
+    font-size: 14px;
+} */
+
+.custompa {
+    color: #656161 !important;
+    font-size: 14px;
+}

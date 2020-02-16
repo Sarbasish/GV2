@@ -1,0 +1,257 @@
+.main-menu {
+    align-self: center;
+    position: absolute;
+    text-align: right;
+    right: 96px;
+    z-index: 99;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: normal;
+    color: #323232;
+    font-size: 13px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    font-weight: 600;
+}
+
+.ct-heading-sub {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: #76a904;
+    text-transform: uppercase;
+}
+
+.ct-heading h3.ct-heading-tag {
+    font-size: 40px;
+}
+
+.sec-title h2 {
+    position: relative;
+    color: #222222;
+    font-size: 36px;
+
+}
+
+.tab {
+    overflow: hidden;
+}
+
+.tabs {
+    list-style-type: none;
+    margin-bottom: 40px;
+    padding-left: 0;
+    /* border-bottom: 2px solid #edf5ff; */
+    padding-bottom: 35px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.tabs li:first-child {
+    padding-left: 0;
+}
+
+.tabs li {
+    -ms-flex: 0 0 32.6666666667%;
+    flex: 0 0 32.6666666667%;
+    max-width: 32.6666666667%;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.tabs a {
+    color: #222222;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a {
+    color: #506CEA;
+}
+
+.tabs a i {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #edf5ff;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.icofont-laptop:before {
+    content: "\ea42";
+}
+
+.tabs a:hover,
+.tabs .current a {
+    color: #506CEA;
+}
+
+.tabs a:hover img,
+.tabs .current a img {
+    background: #506CEA;
+}
+
+.tabs a:hover i,
+.tabs .current a i {
+    color: #fff;
+}
+
+.margin-30px-bottom {
+    margin-bottom: 30px;
+}
+
+.services-block {
+    background: #fff;
+    border-radius: 7px;
+    text-align: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.padding-25px-lr {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.padding-45px-tb {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.title-box {
+    position: relative;
+    padding: 20px 0;
+    font-size: 30px;
+    /* 60 */
+    line-height: 1;
+    width: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-25px-bottom {
+    margin-bottom: 25px;
+}
+
+.text-theme-color {
+    color: #4e54c8;
+}
+
+.fa,
+.fas {
+    font-weight: 900;
+}
+
+.box-circle-large {
+    left: 0;
+    bottom: 0;
+    width: 1.37em;
+    height: 1.37em;
+    background: rgba(78, 74, 200, 0.1);
+}
+
+.box-circle-large,
+.box-circle-small {
+    position: absolute;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.box-circle-small {
+    top: 0;
+    right: 0;
+    width: 0.59em;
+    height: 0.59em;
+    background: rgba(128, 137, 255, 0.1);
+}
+
+.box-circle-large,
+.box-circle-small {
+    position: absolute;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.margin-10px-bottom {
+    margin-bottom: 10px;
+}
+
+.font-size22 {
+    font-size: 22px;
+    line-height: normal;
+}
+
+.last-paragraph-no-margin p:last-of-type {
+    margin-bottom: 0;
+}
+
+.line-height-28 {
+    line-height: 28px;
+}
+
+.font-size16 {
+    font-size: 16px;
+    line-height: normal;
+}
+
+p {
+    margin: 0 0 20px;
+    word-spacing: 1px;
+}
+
+.rd_tool_desc {
+    width: 100%;
+    padding: 30px 20px;
+}
+
+.rd_tool_desc h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+h3 {
+
+    line-height: 1.1;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 0px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rd_blue {
+    color: #075bd6;
+}
+
+.rd_tool_section {
+    width: 100%;
+    margin: 25px 0px;
+}

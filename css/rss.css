@@ -1,0 +1,53 @@
+.feedEkList {
+    width: 100%;
+    list-style: none outside none;
+    background-color: #FFFFFF;
+    /* border: 1px solid #D3CAD7; */
+    color: #3E3E3E;
+    padding-left: 20px;
+}
+
+.feedEkList li {
+    
+    border-bottom: 1px solid #D3CAD7;
+    padding: 5px;
+}
+.imgrss {
+    float: left;
+    padding-right: 25px;
+    height: 40px;
+}
+
+.feedEkList li:last-child {
+    border-bottom: none;
+}
+
+.itemTitle a {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+  
+}
+.itemTitle {
+    text-align: left !important;
+}
+
+.itemTitle a:hover {
+    text-decoration: underline
+}
+
+.itemDate {
+    font-size: 11px;
+    color: #AAAAAA;
+    text-align: right;
+    font-size: 14px;
+}
+.itemContent {
+    text-align: justify;
+    font-size: 12px;
+}
+
+#example {
+    font-weight: bold;
+    cursor: pointer;
+}
