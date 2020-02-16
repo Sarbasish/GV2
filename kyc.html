@@ -1,0 +1,557 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <title>Great Ventures</title>
+    <!-- BOOTSTRAP -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- OTHER -->
+    <link rel="stylesheet" href="css/fonts/simple-line-icons-master/css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
+    <link rel="stylesheet" id="theme" type="text/css" href="css/colors/green.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom-about/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom-about/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom-about/style1.css" />
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/design1/style.css">
+    <link rel="stylesheet" href="css/stylewiz.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet"
+        type="text/css" />
+
+    <link rel="stylesheet" href="css/pageCss/kyc.css">
+</head>
+
+<body>
+
+    <div id="loader-wrapper">
+        <div class="square-container">
+            <div class="square">
+                <p>Great Ventures</p>
+            </div>
+        </div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!-- <div class="main"> -->
+    <div class="container-fluid">
+        <div>
+
+            <div class="header-wrapper about-header">
+                <!--LOGO -->
+                <div class="navbar-header col-md-4  col-sm-4 col-xs-4">
+                    <a class="menu-logo" id="top-logo" href="index.html"><img src="images/gv_logo_2.png" alt="logo"
+                            title="logo" style="width: 250px !important;">
+                    </a>
+                </div>
+                <div class="menu-container col-md-8  col-sm-8 col-xs-8">
+                    <!-- START MAIN MENU -->
+                    <div class="main-menu" id="main-menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li class=""><a href="contact.html">Contact</a></li>
+                            <li class="active"><a href="#">My KYC</a></li>
+
+                            <li class=""><a onclick='mypro();' href="#">My Profile</a></li>
+                        </ul>
+
+                        <!-- <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="#">About</a></li>
+                                        <li class="active"><a href="contact.html">Contact</a></li>
+                                    </ul> -->
+                    </div>
+                    <!-- END MAIN MENU -->
+                    <!-- START HOME MENU -->
+                    <nav id="bt-menu" class="bt-menu blog-hamburger-menu">
+                        <a href="contact.html#" class="bt-menu-trigger" id="menu-button"><span></span></a>
+                        <ul class="menu-options">
+                            <!-- HAMBURGER MAIN MENU FOR MOBILE DEVICE -->
+                            <li class="hamburger-main-menu "><a href="index.html">Home</a></li>
+                            <li class="hamburger-main-menu "><a href="products.html">Products</a></li>
+                            <li class="hamburger-main-menu "><a href="services.html">Services</a></li>
+                            <li class="hamburger-main-menu "><a href="about.html">About</a></li>
+                            <li class="hamburger-main-menu"><a href="contact.html">Contact</a></li>
+                            <li class="hamburger-main-menu selected"><a href="#">My KYC</a></li>
+                            <li class="hamburger-main-menu "><a onclick='mypro();' href="profile.html">My Profile</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- END HOME MENU  -->
+            </div>
+        </div>
+        <section class="feature-section" id="feature" style="background: #fff">
+
+            <div class="auto-container">
+
+                <div class="">
+                    <div class="signup-content" style="box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);">
+                        <div class="signup-desc">
+                            <div class="signup-desc-content">
+                                <h1>KYC Application</h1>
+                                <div class="container">
+                                    <h1>
+                                        <small>Choose Picture</small>
+                                    </h1>
+                                    <div class="avatar-upload">
+                                        <div class="avatar-edit">
+                                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                                            <label for="imageUpload"></label>
+                                        </div>
+                                        <div class="avatar-preview">
+                                            <div id="imagePreview"
+                                                style="background-image: url(http://i.pravatar.cc/500?img=7);">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button id="imaggeupload"></button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="signup-form-conent">
+
+
+
+
+                            <form method="POST" id="signup-form" class="signup-form" enctype="multipart/form-data">
+                                <h3></h3>
+                                <fieldset>
+                                    <p class="p-c">Please fill with IDENTITY DETAILS</p>
+                                    <span class="step-current">Step 1 / 6</span>
+
+                                    <div class="form-group">
+                                        <input type="text" name="your_name" id="your_name" required>
+                                        <label for="your_name">Name of the Applicant*</label>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" name="fathername" id="fathername" required />
+                                        <label for="your_name">Father's/Spouse Name*</label>
+                                    </div>
+
+
+
+                                    <div class="form-group">
+                                        <input type="text" style="font-size: 16px;" required id="datepicker"
+                                            name="datepicker" data-date-format="dd/mm/yyyy" />
+
+                                        <label for="your_name">Date of Birth*</label>
+                                    </div>
+                                    <div class="form-group" style="align-self: flex-end; transform: translateY(4px);">
+                                        <label for="your_name" style="font-size: 14px;
+                                                    color: #888;
+                                                    font-weight: normal;
+                                                    margin-bottom: 1.5rem;">Gender*</label>
+                                        <div class="checkbox-tick">
+                                            <label class="single">
+                                                <input type="radio" name="gender" required value="male"><span style="font-size: 16px;
+                                                            padding-left: 10px;">Male</span> <br>
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="married">
+                                                <input type="radio" name="gender" required value="female"> <span style="font-size: 16px;
+                                                            padding-left: 10px;">Female</span><br>
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group" style="align-self: flex-end; transform: translateY(4px);">
+                                        <label for="your_name" style="font-size: 14px;
+                                            color: #888;
+                                            font-weight: normal;
+                                            margin-bottom: 1.5rem;">Martial Status*</label>
+                                        <div class="checkbox-tick">
+                                            <label class="single">
+                                                <input type="radio" name="martial" value="single"><span style="font-size: 16px;
+                                                    padding-left: 10px;">Single</span> <br>
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="married">
+                                                <input type="radio" name="martial" value="married"> <span style="font-size: 16px;
+                                                    padding-left: 10px;">Married</span><br>
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+
+
+
+                                    <br>
+
+                                </fieldset>
+
+                                <h3></h3>
+                                <fieldset>
+                                    <span class="step-current">Step 2 / 6</span>
+                                    <p class="p-c">Please fill with your ADDITIONAL DETAILS</p>
+
+                                    <div class="fform-group" style="align-self: flex-end; transform: translateY(4px);">
+                                        <label for="your_name" class="text-sty">Nationality</label>
+                                        <div class="checkbox-tick">
+                                            <label class="single">
+                                                <input type="radio" name="nationality" value="indian"><span style="font-size: 16px;
+                                                        padding-left: 10px;">Indian </span> <br>
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="married">
+                                                <input type="radio" name="nationality" value="other"> <span style="font-size: 16px;
+                                                        padding-left: 10px;">Other</span><br>
+                                                <span class="checkmark"></span>
+                                            </label>
+
+                                        </div>
+                                    </div>
+                                    <br>
+
+                                    <div class="form-group">
+                                        <input type="text" name="othernation" id="othernation" />
+                                        <label for="other">Other(Please Specify)</label>
+                                    </div>
+                                    <div class="fform-group" style="align-self: flex-end; transform: translateY(4px);">
+                                        <label for="your_name" class="text-sty">Status</label>
+                                        <div class="checkbox-tick">
+                                            <label class="single">
+                                                <input type="radio" name="status" value="individual"><span style="font-size: 16px;
+                                                        padding-left: 10px;">Resident Individual </span> <br>
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="married">
+                                                <input type="radio" name="status" value="nonresident"> <span style="font-size: 16px;
+                                                        padding-left: 10px;">Non Resident </span><br>
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="married">
+                                                <input type="radio" name="status" value="foreign"> <span style="font-size: 16px;
+                                                            padding-left: 10px;">Foreign National</span><br>
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                </fieldset>
+
+                                <h3></h3>
+                                <fieldset>
+                                    <span class="step-current">Step 3 / 6</span>
+                                    <p class="p-c">Please fill with your ADDITIONAL DETAILS</p>
+                                    <div class="form-group">
+                                        <input type="text" name="pan" id="pan" />
+                                        <label for="pan">PAN</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" name="adhaar" id="adhaar" />
+                                        <label for="adhaar">Unique Identification Number(UID)/Adhaar</label>
+                                    </div>
+
+                                    <div class="fform-group" style="align-self: flex-end; transform: translateY(4px);">
+                                        <label for="your_name" class="text-sty">Specify the proof of identify
+                                            submitted</label>
+                                        <div class="checkbox-tick">
+                                            <label class="single">
+                                                <input type="radio" name="proof" value="panno"><span style="font-size: 16px;
+                                                                padding-left: 10px;"> PAN Card</span> <br>
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="married">
+                                                <input type="radio" name="proof" value="otherproof"> <span style="font-size: 16px;
+                                                                padding-left: 10px;">Other </span><br>
+                                                <span class="checkmark"></span>
+                                            </label>
+
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="form-group">
+                                        <input type="text" name="otherproof" id="otherproof" />
+                                        <label for="other">Other(Please Specify)</label>
+                                    </div>
+                                </fieldset>
+
+                                <h3></h3>
+                                <fieldset>
+                                    <p class="p-c">Please fill with your RESIDENCE DETAILS</p>
+                                    <span class="step-current">Step 4 / 6</span>
+                                    <div class="form-group">
+                                        <input type="text" name="address1" id="address1" />
+                                        <label for="address1">Address 1</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="address2" id="address2" />
+                                        <label for="address1">Address 2</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="city" id="city" />
+                                        <label for="city">City/Town/Village</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" name="pincode" id="pincode" />
+                                        <label for="your_name">Pincode</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="state" id="state" />
+                                        <label for="your_name">State</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="country" id="country" />
+                                        <label for="your_name">Country</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="checkbox-circle">
+                                            <label>
+                                                <input type="checkbox" name="dosameasresident" class="dosameasresident"
+                                                    id="dosameasresident"> Permanent Address is same as Resident Address
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                </fieldset>
+
+                                <h3></h3>
+                                <fieldset>
+
+                                    <span class="step-current">Step 5 / 6</span>
+                                    <p class="p-c">Please fill with your PERMANENT DETAILS</p>
+                                    <div class="form-group">
+                                        <input type="text" name="per_address1" id="per_address1" />
+                                        <label for="your_name">Address 1</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="per_address2" id="per_address2" />
+                                        <label for="your_name">Address 2</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="per_city" id="per_city" />
+                                        <label for="your_name">City/Town/Village</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="per_pincode" id="per_pincode" />
+                                        <label for="your_name">Pincode</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="per_state" id="per_state" />
+                                        <label for="your_name">State</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="per_country" id="per_country" />
+                                        <label for="your_name">Country</label>
+                                    </div>
+                                </fieldset>
+
+                                <h3></h3>
+                                <fieldset>
+                                    <span class="step-current">Step 6 / 6</span>
+                                    <p class="p-c">Please fill with your CONTACT DETAILS</p>
+                                    <div class="form-group">
+                                        <input type="number" name="teloffice" id="teloffice" />
+                                        <label for="your_name">Tel(Office) </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" name="telred" id="telres" />
+                                        <label for="your_name">Te1 (Residence)</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" name="mobile" id="mobile" />
+                                        <label for="your_name">Mobile No</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" name="fax" id="fax" />
+                                        <label for="your_name">Fax</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="email" id="email" />
+                                        <label for="email">Email</label>
+                                    </div>
+
+                                </fieldset>
+
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <!-- </div> -->
+
+    <!-- JS -->
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-migrate.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script src="js/design1/jquery/jquery.min.js"></script>
+    <script src="js/design1/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="js/design1/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="js/design1/jquery-steps/jquery.steps.min.js"></script>
+    <script src="js/design1/main.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> -->
+    <script src=""></script>
+    <!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/1.3.1/css/toastr.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/1.3.1/js/toastr.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+    <style>
+        #toast-container {
+            padding-top: 5rem !important;
+            font-size: 14px !important;
+        }
+    </style>
+    <script>
+
+        function mypro() {
+
+            checkkyc();
+
+        }
+
+
+        $("#datepicker").datepicker({
+            autoclose: true,
+            todayHighlight: true
+        }).datepicker('update', new Date());
+
+        function checkkyc() {
+
+            var LoginId = localStorage.getItem("LoginId");
+            if (LoginId == null) {
+
+                alert("Please Login First");
+                window.location = "index.html";
+
+            } else {
+
+                $.ajax({
+                    type: 'GET',
+                    // url: `http://localhost:1234/user/get/${data[0]._id}`,
+                    url: `https://greatventures.herokuapp.com/user/get/${LoginId}`,
+                    processData: false,
+                    async: false,
+                    success: function (data) {
+
+
+                        if (data.length == 0) {
+
+                            alert("Please complete your KYC");
+
+
+                        }
+                        else {
+
+                            window.location = "index.html";
+                        }
+                    },
+                    error: function (data) {
+                    }
+                });
+            }
+
+
+        }
+
+        $(document).ready(function () {
+
+            checkkyc();
+            var LoginId = localStorage.getItem("LoginId");
+            document.getElementById('mobile').value = localStorage.getItem("LoginUserMobile");
+            document.getElementById('email').value = localStorage.getItem("LoginUserEmail");
+
+            document.getElementById('mobile').innerHTML = localStorage.getItem("LoginUserMobile");
+            document.getElementById('email').innerHTML = localStorage.getItem("LoginUserEmail");
+
+
+        });
+
+
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('#imagePreview').css('background-image', 'url(' + e.target.result + ')');
+                    $('#imagePreview').hide();
+                    $('#imagePreview').fadeIn(650);
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+        $("#imageUpload").change(function () {
+            readURL(this);
+            // var formData = new FormData();
+            // formData.append( 'file', $( '#imageUpload' )[0].files[0] );
+            // $.ajax({
+            //     url: 'http://localhost:1234/user/upload',
+            //     type: 'POST',
+            //     data: formData,
+            //     cache: false,
+            //     dataType: 'json',
+            //     processData: false, // Don't process the files
+            //     contentType: false, // Set content type to false as jQuery will tell the server its a query string request
+            //     success: function (data, textStatus, jqXHR) {
+
+            //     },
+            //     error: function (jqXHR, textStatus, errorThrown) {
+            //         // Handle errors here
+            //         console.log('ERRORS: ' + textStatus);
+            //         // STOP LOADING SPINNER
+            //     }
+            // });
+        });
+    </script>
+    <script>
+
+
+
+
+
+//         function previewFile(){
+//        var preview = document.querySelector('img'); //selects the query named img
+//        var file    = document.querySelector('input[type=file]').files[0]; //sames as here
+//        var reader  = new FileReader();
+
+//        reader.onloadend = function () {
+//            preview.src = reader.result;
+//        }
+
+//        if (file) {
+//            reader.readAsDataURL(file); //reads the data as a URL
+//        } else {
+//            preview.src = "";
+//        }
+//   }
+
+//   previewFile();
+    </script>
+</body>
+</html>

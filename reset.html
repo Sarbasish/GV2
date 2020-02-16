@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <title>Great Ventures</title>
+    <!-- BOOTSTRAP https://stackoverflow.com/questions/6974684/how-to-send-formdata-objects-with-ajax-requests-in-jquery-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- OTHER -->
+    <link rel="stylesheet" href="css/fonts/simple-line-icons-master/css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <!-- CUSTOM -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
+    <link rel="stylesheet" id="theme" type="text/css" href="css/colors/green.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/custom-about/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom-about/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom-about/style1.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/pageCss/changepassword.css" />
+
+</head>
+
+<body>
+    <!--   START LOADER  -->
+    <div id="loader-wrapper">
+        <div class="square-container">
+            <div class="square">
+                <p>Great Ventures</p>
+            </div>
+        </div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!--   END LOADER  -->
+    <div class="container-fluid">
+
+
+        <!-- <img src="images/spinner.gif" id="loading-indicator" style="display:none" /> -->
+
+
+        <div>
+
+            <div class="header-wrapper about-header">
+                <!--LOGO -->
+                <div class="navbar-header col-md-4  col-sm-4 col-xs-4">
+                    <a class="menu-logo" id="top-logo" href="index.html"><img src="images/gv_logo_2.png" alt="logo"
+                            title="logo" style="width: 250px !important;">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <section class="feature-section" id="feature">
+
+
+            <div class="auto-container">
+
+                <!--Sec Title-->
+                <div class="sec-title centered">
+                    <h2>Set your account password now</h2>
+
+                </div>
+
+                <div class="feature-block-three">
+                    <div class="inner-box">
+                        <div class="row clearfix">
+
+                            <div class="col-md-4">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="reservation-page-left">
+
+                                    <div class="reservation-page-form">
+
+
+                                        <form id="reservation-form">
+
+
+                                            <div class="reservation-page-input-box">
+                                                <label>New Password</label>
+                                                <input type="password" minlength="8" class="form-control"
+                                                    placeholder="New Password" name="password" id="password"
+                                                    data-error="First name field is required"
+                                                    data-rule-pattern="(^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$)"
+                                                    data-msg-pattern="Password should contain atleast One number, UpperCase/LowerCase letter and One Speical Character"
+                                                    required>
+                                            </div>
+                                            <div class="reservation-page-input-box">
+                                                <label>Confirm Password</label>
+                                                <input type="password" minlength="8" class="form-control"
+                                                    placeholder="Confirm Password" name="confirmpassword"
+                                                    id="confirmpassword"
+                                                    data-rule-pattern="(^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$)"
+                                                    data-msg-pattern="Password should contain atleast One number, UpperCase/LowerCase letter and One Speical Character"
+                                                    data-error="Last name field is required" required>
+                                            </div>
+
+
+
+
+                                            <div class="reservation-booking">
+                                                <button type="submit" id="submit" class="book-now-btn submit" style="font-weight: normal;
+                                                font-size: 16px;">Create Password</button>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                                <br>
+
+                                <div class="alert alert-danger" id="erroralert">
+                                    <h3><strong>Warning! </strong> Password did not match: Please try again....</h3>
+                                </div>
+                                <div class="alert alert-danger" id="pwdmatch">
+                                    <h3> <strong>Warning! </strong> Password should contain atleast one number and one
+                                        special character</h3>
+                                </div>
+                            </div>
+                            <!--col-md-7-->
+
+                        </div>
+                        <!--row-->
+                    </div>
+                    <!--container -->
+                </div>
+
+
+
+
+
+            </div>
+        </section>
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-migrate.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!--     
+    <script type="text/javascript" src="extra/extras/jquery.min.1.7.js"></script>
+    <script type="text/javascript" src="extra/extras/jquery-ui-1.8.20.custom.min.js"></script>
+    <script type="text/javascript" src="extra/extras/modernizr.2.5.3.min.js"></script>
+    <script type="text/javascript" src="extra/lib/hash.js"></script> -->
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <script src="js/design1/jquery/jquery.min.js"></script>
+    <script src="js/design1/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="js/design1/jquery-validation/dist/additional-methods.min.js"></script>
+    <script type="text/javascript">
+        var urlParams = new URLSearchParams(window.location.search);
+        console.log(urlParams.get('token'));
+
+    </script>
+    <script>
+
+
+
+        $(document).ready(function () {
+
+            $('#erroralert').hide();
+            $('#pwdmatch').hide();
+
+        });
+        $("#submit").click(function () {
+
+            $("#reservation-form").validate({
+
+                messages: {
+                    name: "Name is required.",
+                    email: {
+                        required: "Email is required.",
+                        email: "You must provide a valid email address."
+                    }
+                },
+                focusInvalid: false,
+                submitHandler: function () {
+
+
+                    var urlParams = new URLSearchParams(window.location.search);
+                    var token = (urlParams.get('token'));
+
+                    var newpassword = document.getElementById('password').value;
+                    var confirmpassword = document.getElementById('confirmpassword').value;
+
+
+                    if (newpassword != confirmpassword) {
+
+                        $('#erroralert').show();
+                    }
+
+
+                    else {
+
+                        $('#erroralert').hide();
+                        // $('#pwdmatch').hide();
+
+                        var json = JSON.stringify({
+
+                            password: newpassword,
+                            token: token,
+
+                        })
+
+                        $.ajax({
+                            type: 'POST',
+                            url: 'https://greatventures.herokuapp.com/account/update',
+                            //   url: 'http://localhost:1234/account/update',
+                            data: json,
+                            async: false,
+                            cache: false,
+                            contentType: "application/json",
+                            // enctype: 'multipart/form-data',
+                            processData: false,
+
+                            success: function (data) {
+                                //    alert(data)
+                                $("#reservation-form").trigger('reset')
+                                localStorage.removeItem("openaccount");
+                                // window.location = "http://demomano.s3-website-us-east-1.amazonaws.com/index.html";
+                                window.location = "index.html";
+                            },
+                            error: function (data, textStatus, errorThrown) {
+                                console.log('data', data);
+
+                                alert('Ther is no email id exist or you are already verified');
+                            }
+                        });
+                    }
+
+
+
+
+                }
+            });
+
+        })
+
+    </script>
+</body>
+
+</html>

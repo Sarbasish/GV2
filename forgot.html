@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <title>Great Ventures</title>
+    <!-- BOOTSTRAP https://stackoverflow.com/questions/6974684/how-to-send-formdata-objects-with-ajax-requests-in-jquery-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- OTHER -->
+    <link rel="stylesheet" href="css/fonts/simple-line-icons-master/css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <!-- CUSTOM -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
+    <link rel="stylesheet" id="theme" type="text/css" href="css/colors/green.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/custom-about/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom-about/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom-about/style1.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/pageCss/changepassword.css" />
+
+</head>
+
+<body>
+    <!--   START LOADER  -->
+    <div id="loader-wrapper">
+        <div class="square-container">
+            <div class="square">
+                <p>Great Ventures</p>
+            </div>
+        </div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!--   END LOADER  -->
+    <div class="container-fluid">
+        <div>
+
+            <div class="header-wrapper about-header">
+                <!--LOGO -->
+                <div class="navbar-header col-md-4  col-sm-4 col-xs-4">
+                    <a class="menu-logo" id="top-logo" href="index.html"><img src="images/gv_logo_2.png" alt="logo"
+                            title="logo" style="width: 250px !important;">
+                    </a>
+                </div>
+                <div class="menu-container col-md-8  col-sm-8 col-xs-8">
+                    <!-- START MAIN MENU -->
+                    <div class="main-menu" id="main-menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li class="active"><a href="#">Forgot Password</a></li>
+                        </ul>
+
+
+                    </div>
+
+                    <nav id="bt-menu" class="bt-menu blog-hamburger-menu">
+                        <a href="contact.html" class="bt-menu-trigger" id="menu-button"><span></span></a>
+                        <ul class="menu-options">
+                            <li class="hamburger-main-menu "><a href="index.html">Home</a></li>
+                            <li class="hamburger-main-menu "><a href="products.html">Products</a></li>
+                            <li class="hamburger-main-menu "><a href="services.html">Services</a></li>
+                            <li class="hamburger-main-menu "><a href="about.html">About</a></li>
+                            <li class="hamburger-main-menu "><a href="contact.html">Contact</a></li>
+                            <li class="hamburger-main-menu selected"><a href="forgot.html">Forgot Password</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="feature-section" id="feature">
+
+            <!-- <img src="images/spinner.gif" id="loading-indicator" style="display:none" /> -->
+
+            <div class="auto-container">
+
+                <!--Sec Title-->
+                <div class="sec-title centered">
+                    <h2>Break your Email to Reset your password</h2>
+                </div>
+
+                <div class="feature-block-three">
+                    <div class="inner-box">
+                        <div class="row clearfix">
+
+                            <div class="col-md-4">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="reservation-page-left">
+
+                                    <div class="reservation-page-form">
+
+
+                                        <form id="reservation-form">
+
+
+
+                                            <div class="reservation-page-input-box">
+                                                <label>Email </label>
+                                                <input type="email" class="form-control" placeholder="Email"
+                                                    name="email" id="email" data-error="Email field is required"
+                                                    required>
+                                            </div>
+
+                                            <br>
+
+                                            <div class="reservation-booking" style="text-align: left;
+                                            padding-left: 10px;">
+                                                <button type="submit" id="submit" class="book-now-btn submit" style="font-weight: normal;
+                                                font-size: 16px;">Confirm</button>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                                <br>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-migrate.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/custom.js"></script>
+
+
+    <!-- <script type="text/javascript" src="extra/extras/jquery.min.1.7.js"></script> -->
+    <!-- <script type="text/javascript" src="extra/extras/jquery-ui-1.8.20.custom.min.js"></script> -->
+    <!-- <script type="text/javascript" src="extra/extras/modernizr.2.5.3.min.js"></script> -->
+    <!-- <script type="text/javascript" src="extra/lib/hash.js"></script> -->
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+
+
+    <script>
+        $(".submit").click(function () {
+            $("#reservation-form").validate({
+                messages: {
+                    name: "Name is required.",
+                    email: {
+                        required: "Email is required.",
+                        email: "You must provide a valid email address."
+                    }
+                },
+                focusInvalid: false,
+                submitHandler: function () {
+
+
+                    var email = document.getElementById('email').value;
+
+
+
+                    $.ajax({
+                        type: 'GET',
+
+                        url: `https://greatventures.herokuapp.com/account/get/${email}`,
+
+                        processData: false,
+                        async: false,
+                        success: function (data) {
+                            // $('#loading-indicator').hide();
+                            $("#reservation-form").trigger('reset')
+                            localStorage.setItem("openaccount", data);
+                            // window.location = "http://demomano.s3-website-us-east-1.amazonaws.com/confirm.html";
+                            window.location = "confirm.html";
+                        },
+                        error: function (data, textStatus, errorThrown) {
+                            console.log('data', data);
+                            // $('#loading-indicator').hide();
+                            alert('No email address found!');
+                        }
+                    });
+
+
+                }
+            });
+
+        })
+
+    </script>
+</body>
+
+</html>

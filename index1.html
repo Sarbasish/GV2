@@ -1,0 +1,1944 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- <link rel="shortcut icon" href="favicon.png" type="image/x-icon"> -->
+   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+   <title>Great Ventures</title>
+   <!-- FONTS -->
+   <link rel="stylesheet" href="css/fonts/simple-line-icons-master/css/simple-line-icons.css">
+   <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+   <!-- BOOTSTRAP -->
+   <link href="css/bootstrap.css" rel="stylesheet">
+   <!-- FULLPAGE SCROLL  -->
+   <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
+   <link rel="stylesheet" type="text/css" href="css/animate.css" />
+   <!-- GALLERY -->
+   <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" media="screen" title="prettyPhoto main stylesheet" />
+   <!-- CUSTOM CSS  -->
+   <link rel="stylesheet" type="text/css" href="css/style.css" />
+   <link rel="stylesheet" type="text/css" href="css/media.css" />
+   <link rel="stylesheet" id="theme" type="text/css" href="css/colors/green.css" />
+   <link rel="stylesheet" type="text/css" href="css/customcss.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+   <style>svg #base 
+         {
+         fill: rgba(0, 0, 0, 0.66);
+         -webkit-mask: url("index.html#mask");
+         mask: url("index.html#mask");
+         }
+         canvas {
+         -moz-user-select: none;
+         -webkit-user-select: none;
+         -ms-user-select: none;
+         }
+      </style>
+
+
+
+   <style type="text/css">
+      .bigger {
+         margin: 0;
+         font-size: 23px;
+         font-weight: 800;
+         padding: 20px;
+         text-transform: uppercase;
+         color: #202020;
+         display: inline-block;
+         position: relative;
+      }
+
+      .text {
+         max-width: 600px;
+         width: auto;
+         line-height: 24px;
+         text-align: left;
+         color: #404040;
+         padding: 20px;
+      }
+
+      .text.txt-center {
+         /* text-align: center; */
+      }
+
+      .text a {
+         color: #76a904;
+      }
+
+      .has-animation {
+         position: relative;
+         display:inline-block;
+         float: left !important;
+      }
+
+      /* 
+      .has-animation p,
+      .has-animation img {
+         opacity: 0;
+      } */
+
+      .has-animation.animate-in p,
+      .has-animation.animate-in img {
+         animation: textHidden 0.1s 1.1s forwards;
+      }
+
+      .has-animation.animate-in:before,
+      .has-animation.animate-in:after {
+         content: '';
+         position: absolute;
+         top: 0;
+         right: 0;
+         height: 100%;
+         z-index: 10;
+         width: auto;
+      }
+
+      .has-animation.animate-in:before {
+         background-color: #76a904;
+         
+      }
+
+      .has-animation.animate-in:after {
+         background-color: #656565;
+         animation-delay: 0.5s;
+      }
+
+      .has-animation.animation-ltr.animate-in:before {
+         animation: revealLTR 1.8s ease;
+      }
+
+      .has-animation.animation-ltr.animate-in:after {
+         animation: revealLTR 1s 0.6s ease;
+      }
+
+      .has-animation.animation-rtl.animate-in:before {
+         animation: revealRTL 1.8s ease;
+      }
+
+      .has-animation.animation-rtl.animate-in:after {
+         animation: revealRTL 1s 0.6s ease;
+      }
+      @keyframes revealRTL {
+         0% {
+            width: 0;
+            right: 0;
+         }
+
+         65% {
+            width: 100%;
+            right: 0;
+         }
+
+         100% {
+            width: 0;
+            right: 100%;
+         }
+      }
+
+      @keyframes revealLTR {
+         0% {
+            width: 0;
+            left: 0;
+         }
+
+         65% {
+            width: 100%;
+            left: 0;
+         }
+
+         100% {
+            width: 0;
+            left: 100%;
+         }
+      }
+
+      @keyframes textHidden {
+         0% {
+            opacity: 0;
+         }
+
+         100% {
+            opacity: 1;
+         }
+      }
+
+      .test::before {
+         content: "";
+         display: inline-block;
+         height: 0.5em;
+         vertical-align: bottom;
+         width: 40px;
+
+         margin-right: 9px;
+         margin-left: 10px;
+         border-top: 3px solid green;
+      }
+   </style>
+
+
+<style>
+
+.column .time-wrap ul li{
+    color: white !important ;
+}
+
+.colorcd {
+    color: #323232 !important;
+}
+
+</style>
+</head>
+
+<body>
+   <!--   START LOADER  -->
+   <div id="loader-wrapper">
+      <div class="square-container">
+         <div class="square">
+            <p>Great Ventures</p>
+         </div>
+      </div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+   </div>
+   <!--   END LOADER  -->
+   <div class="header-wrapper">
+      <!--LOGO -->
+      <div class="navbar-header col-md-4  col-sm-4 col-xs-4">
+         <a class="menu-logo" id="top-logo" href="index.html"><img src="images/logo (1).png" alt="logo" title="logo"
+               style="width: 250px !important;">
+         </a>
+      </div>
+      <div class="menu-container col-md-8  col-sm-8 col-xs-8">
+         <!-- START MAIN MENU -->
+         <div class="main-menu" id="main-menu">
+            <ul>
+               <li class="active"><a href="index.html">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Blog</a></li>
+            </ul>
+         </div>
+         <!-- END MAIN MENU -->
+         <!-- START HOME MENU -->
+         <nav id="bt-menu" class="bt-menu  ">
+            <a href="index.html#" class="bt-menu-trigger" id="menu-button"><span></span></a>
+            <ul class="menu-options" id="menu">
+               <li class="home-menu" data-menuanchor="home-section"><a data-index="1" href="index.html#1"> <span>H</span><span>o</span><span>m</span><span>e</span>
+                  </a>
+               </li>
+               <li class="home-menu" data-menuanchor="fact-section"><a data-index="2" href="index.html#2"> <span>Facts & Figures</span>
+               </a>
+            </li>
+               
+               <li class="home-menu" data-menuanchor="broker-section"><a data-index="3" href="index.html#3"><span>Brokerage Structure</span>
+                  </a>
+               </li>
+               <li class="home-menu" data-menuanchor="project-section"><a data-index="4" href="index.html#4"><span>Features</span>
+                      </a>
+               </li>
+               <li class="home-menu" data-menuanchor="ask-section"><a data-index="5" href="index.html#5"><span>Ask Us</span>
+                  </a>
+               </li>
+
+               <li class="home-menu" data-menuanchor="product-section"><a data-index="6" href="index.html#6"><span>Products</span>
+                  </a>
+               </li>
+               <li class="home-menu" data-menuanchor="outlook-section"><a data-index="7" href="index.html#6"><span>Daily&Weekly Outlook</span>
+                  </a>
+               </li>
+               <li class="home-menu" data-menuanchor="charts-section"><a data-index="8" href="index.html#6"><span>Economic Charts</span>
+                  </a>
+               </li>
+
+               <li class="home-menu" data-menuanchor="Business-section"><a data-index="9" href="index.html#6"><span>Business Opportunity</span>
+                  </a>
+               </li>
+               <li class="home-menu" data-menuanchor="time-section"><a data-index="10" href="index.html#7"><span>Timeline</span>
+                    </a>
+               </li>
+               <li class="home-menu" data-menuanchor="contact-section"><a data-index="11" href="index.html#8"><span>C</span><span>o</span><span>n</span><span>t</span><span>a</span><span>c</span><span>t</span>
+                     <span>u</span><span>s</span></a>
+               </li>
+               <li class="home-menu" data-menuanchor="follow-section"><a data-index="12" href="index.html#9"><span>F</span><span>o</span><span>l</span><span>l</span><span>o</span><span>w</span>
+                     <span>u</span><span>s</span> </a>
+               </li>
+               <!-- HAMBURGER MAIN MENU FOR MOBILE DEVICE -->
+               <li class="hamburger-main-menu selected"><a data-index="7" href="index.html">Home</a></li>
+               <li class="hamburger-main-menu"><a data-index="7" href="#">About</a></li>
+               <li class="hamburger-main-menu"><a data-index="7" href="#">Blog</a></li>
+            </ul>
+            <ul>
+               <!-- MENU SOCIAL LINKS -->
+               <li><a href="http://www.twitter.com/" class="bt-icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+               </li>
+               <li><a href="https://plus.google.com/" class="bt-icon"><i class="fa fa-google-plus-official" aria-hidden="true"></i></a>
+               </li>
+               <li><a href="http://www.facebook.com/" class="bt-icon"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+               </li>
+               <li><a href="https://github.com/" class="bt-icon"><i class="fa fa-github" aria-hidden="true"></i></a>
+               </li>
+            </ul>
+         </nav>
+      </div>
+      <!-- END HOME MENU  -->
+   </div>
+   <!-- START CONTENT -->
+   <div class="main" id="home-fullpage">
+      <!-- START HOME SECTION -->
+      <section class="l-screen home-section first">
+         <div class="container-fluid">
+            <!-- START HOME CONTENT -->
+            <div id="container" class="wrapper">
+               <div id="home-slider-content">
+                  <!-- BACKGROUND PATTERN -->
+                  <div class="bg_pattern"></div>
+                  <!-- START SVG CONTENT -->
+                  <div id="home-svg-container">
+                     <div class="home-svg-info">
+                        <!-- START SVG -->
+                        <div class="home-svg-text">
+
+                           <div class="row is-animated">
+                              <div class="col-sm-4 homepagetitle">
+                                    <div class="has-animation animation-ltr titleanimate">
+                                            <span></span>
+                                 <h1 class="h1font-sty titleanimate">Stock broking meets technology</h1>
+                              </div>
+                                
+
+                                 <p class="pfont-sty">
+                                    Invest in stocks, ETFs, options, and cryptocurrencies, all commission-free, right
+                                    from your phone or desktop.
+                                 </p>
+                            
+                              </div>
+                              <div class="col-sm-8 imaganimate">
+
+                                 <img src="images/bg_1.png">
+
+                              </div>
+                           </div>
+
+                        </div>
+                        <!-- END SVG -->
+                     </div>
+                     <!-- <h1 class="home-head">PASSION | DESIRE | PERSISTENCE | COMMITMENT</h1> -->
+                  </div>
+                  <!--END SVG CONTENT-->
+               </div>
+            </div>
+            <!--END HOME CONTENT-->
+         </div>
+      </section>
+      <!--END HOME SECTION -->
+      <!-- START ACCOLADES SECTION-->
+      <section class="l-screen accolades-section fact-section bg1">
+         <div class="section-content">
+            <div class="container-fluid section-wrap">
+               <!-- BACKGROUND PATTERN -->
+               <div class="bg_white_pattern"></div>
+               <header class="top-bar " style="margin-top:10%;">
+                  <div class="has-animation animation-ltr titleanimate">
+                       
+                  <h1 class="top-bar__headline txtalg colorcd ">Facts & Figure</h1>
+                  </div>
+               </header>
+               <div class="row vertical-center rowpad">
+                     
+                  <div id="accolades-wrap">
+                     
+                     <div class="wrap-container">
+                             
+                        <!-- START ACCOLADES-->
+                        <!-- START COLUMN ONE -->
+                        <div class="column" id="column-one">
+                           <div class="circle-wrap" id="circle-one">
+                              <i class="fa fa-behance-square" aria-hidden="true"></i>
+                              <div class="accolades-circle-animation">
+                                 <!--  FOR ANIMATION ON MOUSE OVER -->
+                                 <i class="fa fa-behance-square" aria-hidden="true"></i>
+                              </div>
+                           </div>
+                           <div class="line line-one">
+                              <div class="default"></div>
+                              <div class="active"></div>
+                           </div>
+                           <div class="time-wrap">
+                              <h5>BEHANCE</h5>
+                              <ul>
+                                 <li>Creative Branding</li>
+                                 <li>Spotlight</li>
+                              </ul>
+                           </div>
+                        </div>
+                        <!-- END COLUMN ONE -->
+                        <!-- START COLUMN TWO -->
+                        <div class="column" id="column-two">
+                           <div class="circle-wrap  main-circle" id="circle-two">
+                              <i class="fa fa-lastfm" aria-hidden="true"></i>
+                              <div class="accolades-circle-animation">
+                                 <!-- FOR ANIMATION ON MOUSE OVER -->
+                                 <i class="fa fa-lastfm" aria-hidden="true"></i>
+                              </div>
+                           </div>
+                           <div class="time-wrap ">
+                              <h5>STUMBLE</h5>
+                              <ul>
+                                 <li>Muse Room</li>
+                                 <li>Triov Media</li>
+                              </ul>
+                           </div>
+                        </div>
+                        <!-- END COLUMN-TWO -->
+                        <!-- START COLUMN THREE -->
+                        <div class="column" id="column-three">
+                           <div class="time-wrap">
+                              <h5>MEDIUM</h5>
+                              <ul>
+                                 <li>Magazine</li>
+                                 <li>inspire Digital</li>
+                              </ul>
+                           </div>
+                           <div class="circle-wrap  " id="circle-three">
+                              <i class="fa fa-houzz" aria-hidden="true"></i>
+                              <div class="accolades-circle-animation">
+                                 <!-- FOR ANIMATION ON MOUSE OVER -->
+                                 <i class="fa fa-houzz" aria-hidden="true"></i>
+                              </div>
+                           </div>
+                           <div class="line line-three">
+                              <div class="default"></div>
+                              <div class="active"></div>
+                           </div>
+                        </div>
+                        <!-- END COLUMN-THREE-->
+                        <!-- START COLUMN-FOUR -->
+                        <div class="column" id="column-four">
+                           <div class="circle-wrap  " id="circle-four">
+                              <i class="fa fa-stumbleupon" aria-hidden="true"></i>
+                              <div class="accolades-circle-animation">
+                                 <!-- FOR ANIMATION ON MOUSE OVER -->
+                                 <i class="fa fa-stumbleupon" aria-hidden="true"></i>
+                              </div>
+                           </div>
+                           <div class="line line-two">
+                              <div class="default"></div>
+                              <div class="active"></div>
+                           </div>
+                           <div class="time-wrap">
+                              <h5>WEBBY</h5>
+                              <!-- COLUMN 4 HEADER TEXT -->
+                              <ul>
+                                 <!-- COLUMN 4 SUB-HEADING TEXT -->
+                                 <li>Everia Campaign</li>
+                                 <li>Digital Promo </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <!-- END COLUMN-FOUR -->
+                        <!-- START COLUMN-FIVE -->
+                        <div class="column" id="column-five">
+                           <div class="time-wrap">
+                              <h5>AWWWARDS</h5>
+                              <!-- COLUMN 5 HEADER TEXT -->
+                              <ul>
+                                 <!-- COLUMN 5 SUB-HEADING TEXT -->
+                                 <li>Mobile of the Day</li>
+                                 <li>Binnale Web</li>
+                              </ul>
+                           </div>
+                           <div class="circle-wrap" id="circle-five">
+                              <i class="fa fa-xing" aria-hidden="true"></i>
+                              <div class="accolades-circle-animation">
+                                 <!-- FOR ANIMATION ON MOUSE OVER -->
+                                 <i class="fa fa-xing" aria-hidden="true"></i>
+                              </div>
+                           </div>
+                           <div class="line line-five">
+                              <div class="default"></div>
+                              <div class="active"></div>
+                           </div>
+                        </div>
+                        <!-- END COLUMN-FIVE -->
+                     </div>
+                     <!--END ACCOLADES -->
+                  </div>
+                  <!-- END WRAP-CONTAINER -->
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END ACCOLADES  SECTION -->
+      <!-- START SKILL SECTION-->
+      <section class="l-screen skills-section  broker-section " style="background: rgb(201,222,150);background: -moz-linear-gradient(left, rgba(201,222,150,1) 0%, rgba(138,182,107,1) 44%, rgba(57,130,53,1) 100%);background: -webkit-linear-gradient(left, rgba(201,222,150,1) 0%,rgba(138,182,107,1) 44%,rgba(57,130,53,1) 100%);background: linear-gradient(to right, rgba(201,222,150,1) 0%,rgba(138,182,107,1) 44%,rgba(57,130,53,1) 100%);">
+         <div class="section-content" >
+              
+            <header class="top-bar" style="margin-top:10%;">
+                    <span></span>
+                  <div class="has-animation animation-ltr titleanimate">
+               <h1 class="top-bar__headline txtalg " style="text-align:center" >Brokerage Structure </h1>
+            </div>
+            <!-- <div class="has-animation animation-ltr"> -->
+               <!-- <p style="letter-spacing: 1px;
+               margin-top: 10px;">
+                     Spend anywhere without fees on foreign transactions. And get the freedom to get up and go, without telling us you’re leaving the country.
+               </p>  -->
+            <!-- </div> -->
+            </header>
+              
+            <div class="container section-wrap rowpad">
+
+                  <!-- <div class="has-animation animation-ltr">
+                        <h3 class="h2" style="color: #39b54a;">
+                           A committed,
+                        </h3>
+                     </div>
+                     <div class="has-animation animation-rtl">
+                        <h3 class="h2  test" style="color: #39b54a;">experienced
+                        </h3>
+                     </div> -->
+
+
+
+               
+               <div class="row vertical-center is-animate2d">
+                  <div class="skill-wrapper">
+                     <div class="col-md-12 skill-list">
+
+                           <div class="row">
+
+                                 <div class="col-sm-4 brokerageStr1">
+             
+                                     <div class="pricing_table_column wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">
+             
+                                          <img src="images/brokerage (1).png" alt="" class="pricing-img">
+                                          <h4 class="pricing-header">Personal</h4>
+             
+                                         <div class="price">
+             
+                                             <div class="row">
+             
+                                                 <div class="col-xs-12">
+             
+                                                      <span class="pricing-price">Free</span>             
+                                                 </div>
+             
+                                                 <!-- <div class="col-xs-8">
+             
+                                                      <img src="images/brokerage (1).png" alt="" class="pricing-img">             
+                                                 </div> -->
+             
+                                             </div>
+             
+                                         </div>
+             
+                                         <ul class="packages">
+             
+                                             <li><i class="fa fa-check" aria-hidden="true"></i>Dedicated</li>
+             
+                                             <li><i class="fa fa-check" aria-hidden="true"></i>Nutrition Tips</li>
+
+             
+                                             <li><i class="fa fa-check" aria-hidden="true"></i>Protein Shakes</li>
+             
+                                         </ul>
+             
+                                         <a href="#/" class="pricing-button is-featured">Free trial</a>
+             
+                                     </div>
+             
+                                 </div>
+             
+                                 <div class="col-sm-4 brokerageStr2">
+             
+                                     <div class="pricing_table_column blue_price wow fadeInUpBig" style="visibility: visible; animation-name: fadeInUpBig;">
+             
+                                          <img src="images/brokerage (1).png" alt="" class="pricing-img">
+                                     <h4 class="pricing-header">Small team</h4>
+             
+                                         <div class="price">
+             
+                                             <div class="row">
+             
+                                                 <div class="col-xs-12">
+             
+                                                      <span class="pricing-price">$150</span>             
+                                                 </div>
+             
+                                                 
+             
+                                             </div>
+             
+                                         </div>
+             
+                                         <ul class="packages">
+             
+                                             <li><i class="fa fa-check" aria-hidden="true"></i>Never sleeps</li>
+             
+                                             <li><i class="fa fa-check" aria-hidden="true"></i>Nutrition Tips</li>
+             
+                                             <li><i class="fa fa-check" aria-hidden="true"></i>Protein Shakes</li>
+             
+                                         </ul>
+                                         <a href="#/" class="pricing-button">Sign up</a>
+
+             
+                                     </div>
+             
+                                 </div>
+             
+                                 <div class="col-sm-4 brokerageStr3">
+             
+                                     <div class="pricing_table_column wow slideInRight" style="visibility: visible; animation-name: slideInRight;">
+             
+                                          <img src="images/brokerage (1).png" alt="" class="pricing-img">
+                                          <h4 class="pricing-header">Enterprise</h4>             
+                                         <div class="price">
+             
+                                             <div class="row">
+             
+                                                 <div class="col-xs-12">
+             
+                                                      <span class="pricing-price">$400</span>             
+                                                 </div>
+             
+             
+                                             </div>
+             
+                                         </div>
+             
+                                         <ul class="packages">
+             
+                                             <li><i class="fa fa-check" aria-hidden="true"></i>Custom domains</li>
+             
+                                             <li><i class="fa fa-check" aria-hidden="true"></i>Sleeps after 30 mins of inactivity</li>
+                                             <li><i class="fa fa-check" aria-hidden="true"></i>Nutrition Tips</li>
+
+                                            
+             
+                                         </ul>
+             
+                                         <a href="#/" class="pricing-button">Sign up</a>
+
+             
+                                     </div>
+             
+                                 </div>
+             
+                             </div>
+
+                              
+                           <!-- <div class="container">
+
+
+                                 <div class="panel pricing-table">
+                                   
+                                   <div class="pricing-plan">
+                                     <img src="images/brokerage (1).png" alt="" class="pricing-img">
+                                     <h4 class="pricing-header">Personal</h4>
+                                     <ul class="pricing-features">
+                                       <li class="pricing-features-item">Custom domains</li>
+                                       <li class="pricing-features-item">Sleeps after 30 mins of inactivity</li>
+                                     </ul>
+                                     <span class="pricing-price">Free</span>
+                                     <a href="#/" class="pricing-button">Sign up</a>
+                                   </div>
+                                   
+                                   <div class="pricing-plan">
+                                     <img src="images/brokerage (1).png" alt="" class="pricing-img">
+                                     <h4 class="pricing-header">Small team</h4>
+                                     <ul class="pricing-features">
+                                       <li class="pricing-features-item">Never sleeps</li>
+                                       <li class="pricing-features-item">Multiple workers for more powerful apps</li>
+                                     </ul>
+                                     <span class="pricing-price">$150</span>
+                                     <a href="#/" class="pricing-button is-featured">Free trial</a>
+                                   </div>
+                                   
+                                   <div class="pricing-plan">
+                                     <img src="images/brokerage (1).png" alt="" class="pricing-img">
+                                     <h4 class="pricing-header">Enterprise</h4>
+                                     <ul class="pricing-features">
+                                       <li class="pricing-features-item">Dedicated</li>
+                                       <li class="pricing-features-item">Simple horizontal scalability</li>
+                                     </ul>
+                                     <span class="pricing-price">$400</span>
+                                     <a href="#/" class="pricing-button">Free trial</a>
+                                   </div>
+                                   
+                                 </div>
+                               </div>
+                           -->
+
+
+                        <!-- <div class="skill-bar-content">
+                           <ul id="skill">
+                              <li class="bar-1">
+                                 <span class="bar-background "></span><span class="expand skill-1"></span>
+                                 <p>Intraday equity</p>
+                              </li>
+                              <li class="bar-2">
+                                 <span class="bar-background "></span><span class="expand skill-2"></span>
+                                 <p>Delivery equity</p>
+                              </li>
+                              <li class="bar-3">
+                                 <span class="bar-background "></span><span class="expand skill-3"></span>
+                                 <p>F&O - Futures</p>
+                              </li>
+                              <li class="bar-4">
+                                 <span class="bar-background "></span><span class="expand skill-4"></span>
+                                 <p>F&O - Options</p>
+                              </li>
+                              <li class="bar-5">
+                                 <span class="bar-background "></span><span class="expand skill-5"></span>
+                                 <p>Commodity - MCX</p>
+                              </li>
+                           </ul>
+                        </div> -->
+                     </div>
+                     <!-- <div class="col-md-12">
+                        <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                          
+                           <ol class="carousel-indicators">
+                              <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+                              <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+                              <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+                              <li data-target="#fade-quote-carousel" data-slide-to="3"></li>
+                              <li data-target="#fade-quote-carousel" data-slide-to="4"></li>
+                              <li data-target="#fade-quote-carousel" data-slide-to="5"></li>
+                           </ol>
+                        
+                           <div class="carousel-inner  media media-quotes media-quotes-med">
+                              <div class="active item">
+                                 <blockquote class="media-body">
+                                    <p>A sleek, modern web based trading platform with streaming market data, advanced
+                                       charts, an elegant UI, and more.</p>
+                                    <span>Trade with India's largest discount brokerage</span>
+                                 </blockquote>
+                              </div>
+                              <div class="item">
+                                 <blockquote class="media-body">
+                                    <p>"Without change there is no innovation,creativity or incentive for improvement!"</p>
+                                    <span>Trade with India's largest discount brokerage</span>
+                                 </blockquote>
+                              </div>
+                              <div class=" item">
+                                 <blockquote class="media-body">
+                                    <p>"If you're not prepared to be wrong, you'll never come up with anything
+                                       original!"</p>
+                                    <span> Trade with India's largest discount brokerage</span>
+                                 </blockquote>
+                              </div>
+                              <div class="item">
+                                 <blockquote class="media-body">
+                                    <p>"Don't be satisfied with stories, how things have gone with others. Unfold your
+                                       own myth!"</p>
+                                    <span>Trade with India's largest discount brokerage </span>
+                                 </blockquote>
+                              </div>
+                              <div class="item">
+                                 <blockquote class="media-body">
+                                    <p>"An idea that is not dangerous is unworthy of being called an idea at all"</p>
+                                    <span>Trade with India's largest discount brokerage </span>
+                                 </blockquote>
+                              </div>
+                              <div class="item">
+                                 <blockquote class="media-body">
+                                    <p>"Imagination is everything. It is the preview of life's coming attractions!"</p>
+                                    <span>Trade with India's largest discount brokerage</span>
+                                 </blockquote>
+                              </div>
+                           </div>
+                        </div>
+                     </div> -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--  -->
+
+
+
+      <!--  -->
+
+
+      <!-- 
+
+      <section class="l-screen client-section">
+         <div class="bg_white_pattern"></div>
+         <div class="sub_div">
+            <header class="top-bar">
+               <h1 class="top-bar__headline" style="    visibility: hidden;">CLIENTS</h1>
+            </header>
+            <div class="container  vertical-center">
+               <div class="row " style="padding-top: 10%;position:fixed">
+                  <div id="clients_details">
+                     <div id="clients" class="client-wrap effects">
+
+                        <div class="col-md-6 col-sm-6">
+                           <div class="hl hm cu hn ho cx hp hq da hr hs dd ht hu hv hw af hx">
+                              <div class="b hy ca hz o pt pu">
+
+                                 <img src="images/iphoneX-transaction-euen.jpg" alt="Homepage">
+
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6">
+                           <h3 class="h2" style="color: #39b54a;text-align: center;padding-bottom: 20px;">Say goodbye to trading commissions
+                              And hello to the future of trading</h3>
+                           <p>Robinhood started with the idea that a technology-driven brokerage could operate with
+                              significantly less overhead.
+
+                              We cut out the fat that makes other brokerages costly — hundreds of storefront locations
+                              and manual account management.
+                           </p>
+                           <p>
+                              We are a team of engineers and designers, and we hold the products we craft to the
+                              highest standard. We believe that exceptionally engineered systems — not marble office
+                              buildings on Wall St — are the cornerstones of establishing trust.
+                           </p>
+
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+      <section class="l-screen client-section">
+         <div class="bg_white_pattern"></div>
+         <div class="sub_div">
+            <header class="top-bar">
+               <h1 class="top-bar__headline" style="    visibility: hidden;">CLIENTS</h1>
+            </header>
+            <div class="container  vertical-center">
+               <div class="row " style="padding-top: 10%;position:fixed">
+                  <div id="clients_details">
+                     <div id="clients" class="client-wrap effects">
+
+                        <div class="col-md-6 col-sm-6">
+
+                             
+                              <h3 class="h2" style="color: #39b54a;text-align: center;padding-bottom: 20px;">Stay on top of your portfolio. Anytime. Anywhere</h3>
+                                 <p>In the stock market, a fraction of a second can mean the difference between a profit and a loss. Our team has built low-latency trading systems used by some of the world's largest financial institutions, and we're bringing that expertise to Robinhood. As a Robinhood customer, your self-directed orders will receive the best possible trade execution
+                                 </p>
+                                 <p>
+                                       We’re on a mission to democratize India's financial system.They soon decided it was more important to build products that would provide everyone with access to the financial markets, not just the wealthy.
+                                 </p>
+
+
+
+                          
+                        </div>
+
+                        <div class="col-md-6 col-sm-6">
+                              <div class="hl hm cu hn ho cx hp hq da hr hs dd ht hu hv hw af hx" style="float:right">
+                                    <div class="b hy ca hz o pt pu">
+      
+                                       <img src="images/iphoneX-transaction-euen.jpg" alt="Homepage">
+      
+                                    </div>
+                                 </div>
+
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+ -->
+
+
+
+      <section class="l-screen  project-section bg1" >
+         <div class="bg_white_pattern"></div>
+         <div class="container-fluid" id="project_all_container">
+            <header class="top-bar" id="project_head" style="padding-top:8%">
+                  <div class="has-animation animation-ltr titleanimate">
+               <h1 class="top-bar__headline txtalg">Features</h1>
+            </div>
+            </header>
+            <div class="row vertical-center rowpad">
+               <!-- CLOSE BUTTON-->
+               <span id="project_back"><a href="index.html#project-section/0" class="project-cd-close" title="close"></a></span>
+               <div class="project_content">
+                  <div class="project_grid">
+                     <!-- START PROJECT -->
+                     <div class="m-projects-container l-slide">
+                        <div class="project-top"></div>
+                        <!-- START PROJECT -->
+                        <figure class="effect-project">
+                           <img src="images/project/project1.jpg" alt="" />
+                           <!-- PROJECT NAME AND DETAILS FOR SMALL DEVICES -->
+                           <div class="project-summary">
+                              <h3 class="project-name">DUTCHIE MEDIA</h3>
+                              <span>Branding</span>
+                              <span>Agency</span>
+                              <span>Winter 2014</span>
+                           </div>
+                           <!--END PROJECT NAME AND DETAILS FOR SMALL DEVICES -->
+                           <figcaption>
+                              <!-- NAME -->
+                              <h2>DUTCHIE MEDIA</h2>
+                              <!-- DETAILS -->
+                              <p>Discover the stories<br>work and projects <br>danish design studio<br> through an
+                                 experience</p>
+                              <!-- LINK TO PROJECT DETAILS -->
+                              <a href="index.html#project-section/project1"> </a>
+                           </figcaption>
+                        </figure>
+                        <!-- END PROJECT -->
+                        <!-- START PROJECT -->
+                        <figure class="effect-project">
+                           <img src="images/project/project2-vimeo.jpg" alt="" />
+                           <!-- PROJECT NAME AND DETAILS FOR SMALL DEVICES -->
+                           <div class="project-summary">
+                              <h3 class="project-name">RUSH STUDIOS</h3>
+                              <span>Studios</span>
+                              <span>Campaign</span>
+                              <span>Fall Winter</span>
+                           </div>
+                           <!--END PROJECT NAME AND DETAILS FOR SMALL DEVICES -->
+                           <figcaption>
+                              <!-- NAME -->
+                              <h2>RUSH STUDIOS</h2>
+                              <!-- DETAILS -->
+                              <p>The Rush studios in California uses ambient sound, video, interviews to draw users
+                                 into their project showcase</p>
+                              <!-- LINK TO VIMEO VIDEO PROJECT -->
+                              <a href="https://vimeo.com/176916362" data-gal="prettyPhoto[]">
+                              </a>
+                           </figcaption>
+                        </figure>
+                        <!-- END PROJECT -->
+                        <!--START PROJECT -->
+                        <figure class="effect-project">
+                           <img src="images/project/project3.jpg" alt="" />
+                           <!-- PROJECT NAME AND DETAILS FOR SMALL DEVICES -->
+                           <div class="project-summary">
+                              <h3 class="project-name">MERCK STATION</h3>
+                              <span>Media Strategy</span>
+                              <span>Mid Summer</span>
+                              <span>2016</span>
+                           </div>
+                           <!--END PROJECT NAME AND DETAILS FOR SMALL DEVICES -->
+                           <figcaption>
+                              <!-- NAME -->
+                              <h2>MERCK STATION</h2>
+                              <!-- DETAILS -->
+                              <p>The agency for digital strategy and media planning across the globe</p>
+                              <!-- LINK TO PROJECT DETAILS -->
+                              <a href="index.html#project-section/project3"> </a>
+                           </figcaption>
+                        </figure>
+                        <!-- END PROJECT -->
+                        <!-- START PROJECT -->
+                        <figure class="effect-project">
+                           <img src="images/project/project4-youtube.jpg" alt="" />
+                           <!-- PROJECT NAME AND DETAILS FOR SMALL DEVICES -->
+                           <div class="project-summary">
+                              <h3 class="project-name">KIAX FOLD</h3>
+                              <span>Brand Media</span>
+                              <span>Fall Winter</span>
+                              <span>2014</span>
+                           </div>
+                           <!--END PROJECT NAME AND DETAILS FOR SMALL DEVICES -->
+                           <figcaption>
+                              <!-- NAME -->
+                              <h2>KIAX FOLD </h2>
+                              <!-- DETAILS -->
+                              <p>Explore the ruins of four dimension designs by creative direction</p>
+                              <a href="https://youtu.be/nrJtHemSPW4" data-gal="prettyPhoto[]">
+                              </a>
+                              <!-- LINK TO PROJECT DETAILS 
+                                       <a href="#project-section/project4"> </a>-->
+                           </figcaption>
+                        </figure>
+                        <!-- END PROJECT -->
+                        <!-- START PROJECT -->
+                        <figure class="effect-project">
+                           <img src="images/project/project5.jpg" alt="" />
+                           <!-- PROJECT NAME AND DETAILS FOR SMALL DEVICES -->
+                           <div class="project-summary">
+                              <h3 class="project-name">DIMENSION</h3>
+                              <span>Strategy Designs</span>
+                              <span>Post Summer</span>
+                              <span>2016</span>
+                           </div>
+                           <!--END PROJECT NAME AND DETAILS FOR SMALL DEVICES -->
+                           <figcaption>
+                              <!-- NAME -->
+                              <h2>Dimension</h2>
+                              <!-- DETAILS -->
+                              <p>Ever since the design went live world have been buzzing on who was behind this instant
+                                 classic</p>
+                              <!-- LINK TO PROJECT DETAILS -->
+                              <a href="index.html#project-section/project5"> </a>
+                           </figcaption>
+                        </figure>
+                        <!-- END PROJECT -->
+                        <!--START PROJECT DESCRIPTION TEXT -->
+                        <figure class="effect-project">
+                           <img src="images/project/project6.jpg" alt="" />
+                           <!-- PROJECT NAME AND DETAILS FOR SMALL DEVICES -->
+                           <div class="project-summary">
+                              <h3 class="project-name">STAR FICTION</h3>
+                              <span>Studio Project</span>
+                              <span>Brand</span>
+                              <span>Winter 2016</span>
+                           </div>
+                           <!--END PROJECT NAME AND DETAILS FOR SMALL DEVICES -->
+                           <figcaption>
+                              <!-- NAME -->
+                              <h2>STAR FICTION</h2>
+                              <!-- DETAILS -->
+                              <p>Unleash your deep design thoughts,change your canvas live and show off your skill
+                                 level </p>
+                              <!-- LINK TO PROJECT DETAILS -->
+                              <a href="index.html#project-section/project6"> </a>
+                           </figcaption>
+                        </figure>
+                        <!--END PROJECT DESCRIPTION TEXT -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- START PROJECT SLIDER CONTENT-->
+            <div class="l-slide  project-slide project1" data-anchor="project1">
+               <div class="project-slide-next"><i class="fa fa-angle-right"></i>
+               </div>
+               <div class="project-slide-name">
+                  <h2>DUTCHIE MEDIA</h2>
+               </div>
+               <div class="project-slide-details">
+                  <div class="project-slide-details-center">
+                     <div>
+                        <span>BRANDING</span>
+                     </div>
+                     <div>
+                        <span>AGENCY</span>
+                     </div>
+                     <div>
+                        <span>WINTER 2014</span>
+                     </div>
+                  </div>
+               </div>
+               <!-- SOCIAL LINKS -->
+               <div class="project-slide-social">
+                  <a target="_blank" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                  <a target="_blank" href="https://plus.google.com"><i class="fa fa-google-plus"></i></a>
+                  <a target="_blank" href="https://www.tumblr.com"><i class="fa fa-tumblr"></i></a>
+                  <a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube"></i></a>
+                  <a target="_blank" href="https://vimeo.com"><i class="fa fa-vimeo"></i></a>
+               </div>
+               <div class="project-slide-prev"><i class="fa fa-angle-left"></i>
+               </div>
+            </div>
+            <!-- END PROJECT SLIDER CONTENT-->
+            <!-- START PROJECT SLIDER CONTENT-->
+            <div class="l-slide  project-slide project3" data-anchor="project3">
+               <div class="project-slide-next"><i class="fa fa-angle-right"></i>
+               </div>
+               <!-- PROJECT NAME -->
+               <div class="project-slide-name">
+                  <h2>MERCK STATION</h2>
+               </div>
+               <!-- PROJECT DETAILS -->
+               <div class="project-slide-details">
+                  <div class="project-slide-details-center">
+                     <div>
+                        <span>MEDIA</span>
+                     </div>
+                     <div>
+                        <span>SUMMER</span>
+                     </div>
+                     <div>
+                        <span>2016</span>
+                     </div>
+                  </div>
+               </div>
+               <!-- SOCIAL LINKS -->
+               <div class="project-slide-social">
+                  <a target="_blank" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                  <a target="_blank" href="https://plus.google.com"><i class="fa fa-google-plus"></i></a>
+                  <a target="_blank" href="https://www.tumblr.com"><i class="fa fa-tumblr"></i></a>
+                  <a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube"></i></a>
+                  <a target="_blank" href="https://vimeo.com"><i class="fa fa-vimeo"></i></a>
+               </div>
+               <div class="project-slide-prev"><i class="fa fa-angle-left"></i>
+               </div>
+            </div>
+            <!-- START PROJECT SLIDER CONTENT-->
+            <div class="l-slide  project-slide project5" data-anchor="project5">
+               <div class="project-slide-next"><i class="fa fa-angle-right"></i>
+               </div>
+               <!-- PROJECT NAME -->
+               <div class="project-slide-name">
+                  <h2>DIMENSION</h2>
+               </div>
+               <!-- PROJECT DETAILS -->
+               <div class="project-slide-details">
+                  <div class="project-slide-details-center">
+                     <div>
+                        <span>Strategy Designs</span>
+                     </div>
+                     <div>
+                        <span>Post Summer</span>
+                     </div>
+                     <div>
+                        <span>2016</span>
+                     </div>
+                  </div>
+               </div>
+               <!-- SOCIAL LINKS -->
+               <div class="project-slide-social">
+                  <a target="_blank" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                  <a target="_blank" href="https://plus.google.com"><i class="fa fa-google-plus"></i></a>
+                  <a target="_blank" href="https://www.tumblr.com"><i class="fa fa-tumblr"></i></a>
+                  <a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube"></i></a>
+                  <a target="_blank" href="https://vimeo.com"><i class="fa fa-vimeo"></i></a>
+               </div>
+               <div class="project-slide-prev"><i class="fa fa-angle-left"></i>
+               </div>
+            </div>
+            <!-- START PROJECT SLIDER CONTENT-->
+            <div class="l-slide  project-slide project6" data-anchor="project6">
+               <div class="project-slide-next"><i class="fa fa-angle-right"></i>
+               </div>
+               <!-- PROJECT NAME -->
+               <div class="project-slide-name">
+                  <h2>STAR FICTION</h2>
+               </div>
+               <!-- PROJECT DETAILS -->
+               <div class="project-slide-details">
+                  <div class="project-slide-details-center">
+                     <div>
+                        <span>AGENCY</span>
+                     </div>
+                     <div>
+                        <span>BRAND</span>
+                     </div>
+                     <div>
+                        <span>WINTER 2016</span>
+                     </div>
+                  </div>
+               </div>
+               <!-- SOCIAL LINKS -->
+               <div class="project-slide-social">
+                  <a target="_blank" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                  <a target="_blank" href="https://plus.google.com"><i class="fa fa-google-plus"></i></a>
+                  <a target="_blank" href="https://www.tumblr.com"><i class="fa fa-tumblr"></i></a>
+                  <a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube"></i></a>
+                  <a target="_blank" href="https://vimeo.com"><i class="fa fa-vimeo"></i></a>
+               </div>
+               <div class="project-slide-prev"><i class="fa fa-angle-left"></i>
+               </div>
+            </div>
+            <!-- ANIMATION BARS -->
+            <div class="project_desc" id="project-description">
+               <div class="projectbar">
+                  <div class="project-bar color-1">
+                  </div>
+               </div>
+               <div class="projectbar">
+                  <div class="project-bar color-2">
+                  </div>
+               </div>
+               <div class="projectbar">
+                  <div class="project-bar color-1">
+                  </div>
+               </div>
+               <div class="projectbar">
+                  <div class="project-bar color-2">
+                  </div>
+               </div>
+               <div class="projectbar">
+                  <div class="project-bar color-1">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+
+
+      <!--START ASK US SECTION -->
+      <section class="l-screen askus-section ask-section" style="background: rgba(216,247,170,1);
+      background: -moz-linear-gradient(left, rgba(216,247,170,1) 0%, rgba(134,194,50,1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(216,247,170,1)), color-stop(100%, rgba(134,194,50,1)));
+      background: -webkit-linear-gradient(left, rgba(216,247,170,1) 0%, rgba(134,194,50,1) 100%);
+      background: -o-linear-gradient(left, rgba(216,247,170,1) 0%, rgba(134,194,50,1) 100%);
+      background: -ms-linear-gradient(left, rgba(216,247,170,1) 0%, rgba(134,194,50,1) 100%);
+      background: linear-gradient(to right, rgba(216,247,170,1) 0%, rgba(134,194,50,1) 100%);" id="askus">
+         <div class="bg_pattern"></div>
+         <div class="container-fluid  " id="askus-container">
+            <header class="top-bar" style="padding-top:10%">
+                  <div class="has-animation animation-ltr titleanimate">
+               <h1 class="top-bar__headline txtalg">ASK US</h1>
+                  </div>
+            </header>
+            <div class="wraper vertical-center rowpad">
+               <div class="askus_content_bar ">
+                  <!--START ASK US 1-->
+                  <div class="askusbar" data-askus-number="1">
+                     <div class="askus-bar">
+                        <div class="askus-question-wrapper">
+                           <div class="askus_question_background"></div>
+                           <div class="askus_question">1</div>
+                        </div>
+                        <div class="title">
+                           <div class="askus_questions" id="qst_1">What Type of Projects you Create</div>
+                           <!-- ASK US QUESTION -->
+                           <div class="askus_sub_content">
+                              <!-- DESCRIPTION ON MOUSE CLICK -->
+                              <h3>What Type of Projects you Create? </h3>
+                              <p class="hidden askus-questions__answer-text" data-answer-number="1">
+                                 We have completed a pretty wide range of projects including logos, branding, mobile
+                                 apps and the list goes on and on!
+                              </p>
+                           </div>
+                        </div>
+                        <div class="askus_answer"><span>?</span>
+                        </div>
+                     </div>
+                  </div>
+                  <!--END ASK US1-->
+                  <!--START ASK US 2-->
+                  <div class="askusbar" data-askus-number="2">
+                     <div class="askus-bar">
+                        <div class="askus-question-wrapper">
+                           <div class="askus_question_background"></div>
+                           <div class="askus_question">2</div>
+                        </div>
+                        <div class="title">
+                           <div class="askus_questions" id="qst_2">Do you Take Over Out Station Projects</div>
+                           <!-- ASK US QUESTION -->
+                           <div class="askus_sub_content">
+                              <!-- DESCRIPTION ON MOUSE CLICK -->
+                              <h3>Do you Take Over out Station Projects?</h3>
+                              <p class="hidden askus-questions__answer-text" data-answer-number="2">
+                                 Yeah! Working across borders has become fun to our team, and we have successfully
+                                 completed projects for companies around the globe.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="askus_answer"><span>?</span>
+                        </div>
+                     </div>
+                  </div>
+                  <!--END ASK US2-->
+                  <!--START ASK US 3-->
+                  <div class="askusbar" data-percent="100%" data-askus-number="3">
+                     <div class="askus-bar">
+                        <div class="askus-question-wrapper">
+                           <div class="askus_question_background"></div>
+                           <div class="askus_question">3</div>
+                        </div>
+                        <div class="title">
+                           <div class="askus_questions" id="qst_3">Who are Your Existing Clients and Partners</div>
+                           <!-- ASK US QUESTION -->
+                           <div class="askus_sub_content">
+                              <!-- DESCRIPTION ON MOUSE CLICK -->
+                              <h3>Who are Your Existing Clients and Partners?</h3>
+                              <p class="hidden askus-questions__answer-text" data-answer-number="3">
+                                 ty';jal years in the idustry we have formed quite a few strong connections
+                                 across all media verticals .All These partners share our values and we work closely
+                                 with them to deliver the highest possible standard.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="askus_answer"><span>?</span>
+                        </div>
+                     </div>
+                  </div>
+                  <!--END ASK US3-->
+                  <!--START ASK US 4-->
+                  <!-- <div class="askusbar" data-percent="100%" data-askus-number="4">
+                     <div class="askus-bar">
+                        <div class="askus-question-wrapper">
+                           <div class="askus_question_background"></div>
+                           <div class="askus_question">4</div>
+                        </div>
+                        <div class="title">
+                           <div class="askus_questions" id="qst_4">How Much Will be the Project Cost</div>
+                          
+                           <div class="askus_sub_content">
+                            
+                              <h3>How Much Will be the Project Cost?</h3>
+                              <p class="hidden askus-questions__answer-text" data-answer-number="4">
+                                 Its hard to predict as its depends on project nature.We approch works more personlised
+                                 to the nature of requirements.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="askus_answer"><span>?</span>
+                        </div>
+                     </div>
+                  </div> -->
+                
+               </div>
+            </div>
+            <div id="askus-answers">
+               <div id="askus-answers-inner">
+                  <div class="askus-question-icon">
+                     <i class="fa fa-question" aria-hidden="true"></i>
+                  </div>
+                  <h3>Ask us Question </h3>
+                  <div class="askus-show-answer">
+                  </div>
+               </div>
+               <div class="askus-controls">
+                  <div class="askus-controls-inner">
+                     <span class="askus-close-button">
+                        <a href="index.html#askus-section" id="askus_close" class="cd-close" title="close"></a>
+                     </span>
+                     <a href="index.html#askus-section" class="askus-prev-button">
+                        <i class="fa fa-angle-left"></i>
+                     </a>
+                     <a href="index.html#askus-section" class="askus-next-button">
+                        <i class="fa fa-angle-right"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END ASK US SECTION -->
+
+      
+
+
+      <section class="l-screen skills-section2 product_sec1 product-section " style="background: rgba(208,211,219,1);
+      background: -moz-linear-gradient(left, rgba(208,211,219,1) 0%, rgba(102,98,102,1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(208,211,219,1)), color-stop(100%, rgba(102,98,102,1)));
+      background: -webkit-linear-gradient(left, rgba(208,211,219,1) 0%, rgba(102,98,102,1) 100%);
+      background: -o-linear-gradient(left, rgba(208,211,219,1) 0%, rgba(102,98,102,1) 100%);
+      background: -ms-linear-gradient(left, rgba(208,211,219,1) 0%, rgba(102,98,102,1) 100%);
+      background: linear-gradient(to right, rgba(208,211,219,1) 0%, rgba(102,98,102,1) 100%);">
+            <div class="section-content">
+               <header class="top-bar" style="margin-top:10%;">
+                     <div class="has-animation animation-ltr titleanimate">
+                  <h1 class="top-bar__headline txtalg" > Products </h1>
+                     </div>
+               </header>
+               <div class="container section-wrap rowpad">
+                  <div class="bg_pattern"></div>
+                  <div class="row vertical-center">
+                     <div class="skill-wrapper ">
+                        <div class="col-md-6 skill-list productanimated">
+                           <img src="images/mockups_02.png" style="height: 100%;width: 100%;">
+                        </div>
+                        <div class="col-md-6 skill-list">
+                              <div class="has-animation animation-ltr">
+                           <h1 class="productanimated1" style="color:white">Take control of your products. With just one application</h1>
+                           </div>
+                           <br/>
+                           <p class="productanimated2" style="color:white">
+                                 Manage everything directly in the N26 app—set payment limits, lock your card, and send money to friends. All in real time.
+                           </p>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+
+
+      <section class="l-screen skills-section2 product_sec1 outlook-section" style="background: rgba(153,194,99,1);
+      background: -moz-linear-gradient(left, rgba(153,194,99,1) 0%, rgba(176,240,79,1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(153,194,99,1)), color-stop(100%, rgba(176,240,79,1)));
+      background: -webkit-linear-gradient(left, rgba(153,194,99,1) 0%, rgba(176,240,79,1) 100%);
+      background: -o-linear-gradient(left, rgba(153,194,99,1) 0%, rgba(176,240,79,1) 100%);
+      background: -ms-linear-gradient(left, rgba(153,194,99,1) 0%, rgba(176,240,79,1) 100%);
+      background: linear-gradient(to right, rgba(153,194,99,1) 0%, rgba(176,240,79,1) 100%);">
+            <div class="section-content">
+               <header class="top-bar" style="margin-top:10%;">
+                     <div class="has-animation animation-ltr titleanimate">
+                  <h1 class="top-bar__headline txtalg" > Daily & Weekly – Outlook  </h1>
+                     </div>
+               </header>
+               <div class="container section-wrap rowpad">
+                  <div class="bg_pattern"></div>
+                  <div class="row vertical-center">
+                     <div class="skill-wrapper" style="padding-top: 68px;">
+                        <div class="col-md-6 skill-list">
+                              <div class="container horizontal rounded">
+                               
+                                    <div class="progress-bar horizontal">
+                                          <strong>Intraday equity (25%)</strong>
+                                      <div class="progress-track">
+                                         
+                                        <div class="progress-fill" style="width:25%">
+                                        
+                                        </div>
+                                      </div>
+                                    </div>
+                                  
+                                    <div class="progress-bar horizontal">
+                                          <strong>Delivery equity (75%)</strong>
+                        
+                                      <div class="progress-track">
+                                        <div class="progress-fill" style="width:75%">
+                                        
+                                        </div>
+                                      </div>
+                                    </div>
+                                  
+                                    <div class="progress-bar horizontal">
+                                          <strong>F&O - Futures(60%)</strong>
+                                      <div class="progress-track">
+                                        <div class="progress-fill" style="width:60%">
+                                         
+                                        </div>
+                                      </div>
+                                    </div>
+                                  
+                                    <div class="progress-bar horizontal">
+                                          <strong>F&O - Options (20%)</strong>
+                                      <div class="progress-track">
+                                        <div class="progress-fill" style="width:20%">
+                                        
+                                        </div>
+                                      </div>
+                                    </div>
+                                  
+                                    <div class="progress-bar horizontal">
+                                          <strong>Commodity - MCX(34%)</strong>
+                                      <div class="progress-track">
+                                        <div class="progress-fill" style="width:34%">
+                                        
+                                        </div>
+                                      </div>
+                                    </div>
+                                  
+                                    <div class="progress-bar horizontal">
+                                          <strong> MCX (82%)</strong>
+                                      <div class="progress-track">
+                                        <div class="progress-fill" style="width:82%">
+                                         
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                        </div>
+                        <div class="col-md-6 skill-list dailyanimated" >
+
+                         <img src="images/mob2.png" style="height: 415px;">
+                           </div>
+
+                           <div class="row">
+                                 <div class="row project-counter">
+                                       <div class="col-sm-3 text-center dailyanimate1">
+                                          <span class="count" data-count="525" style="color:white">525</span>
+                                          <p style="color:white">MEDIA PROJECTS</p>
+                                       </div>
+                                       <div class="col-sm-3 text-center dailyanimate2">
+                                          <span class="count" data-count="328" style="color:white">328</span>
+                                          <p style="color:white">EMPANADAS ORDERED</p>
+                                       </div>
+                                       <div class="col-sm-3 text-center dailyanimate3">
+                                          <span class="count" data-count="124" style="color:white">124</span>
+                                          <p style="color:white">AWARDS RECIEVED</p>
+                                       </div>
+                                       <div class="col-sm-3 text-center dailyanimate4">
+                                          <span class="count" data-count="456" style="color:white">456</span>
+                                          <p style="color:white">AWZOM CREATIVES</p>
+                                       </div>
+                                    </div>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+        
+         <section class="l-screen skills-section2 product_sec1 charts-section" style="background: rgb(216,224,222);background: -moz-linear-gradient(left, rgba(216,224,222,1) 0%, rgba(174,191,188,1) 22%, rgba(153,175,171,1) 33%, rgba(142,166,162,1) 50%, rgba(130,157,152,1) 67%, rgba(78,92,90,1) 82%, rgba(14,14,14,1) 100%);background: -webkit-linear-gradient(left, rgba(216,224,222,1) 0%,rgba(174,191,188,1) 22%,rgba(153,175,171,1) 33%,rgba(142,166,162,1) 50%,rgba(130,157,152,1) 67%,rgba(78,92,90,1) 82%,rgba(14,14,14,1) 100%);background: linear-gradient(to right, rgba(216,224,222,1) 0%,rgba(174,191,188,1) 22%,rgba(153,175,171,1) 33%,rgba(142,166,162,1) 50%,rgba(130,157,152,1) 67%,rgba(78,92,90,1) 82%,rgba(14,14,14,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e0de', endColorstr='#0e0e0e',GradientType=1 );">
+              
+
+               <div class="section-content">
+                  <header class="top-bar" style="margin-top:10%;">
+                   
+                        <div class="has-animation animation-ltr titleanimate">
+                              <h1 class="top-bar__headline txtalg " > Economic Calendar and Charts </h1>
+                              <hr class="default_divider default_divider_blue default_divider_big">
+                                 </div>
+                  </header>
+                  <div class="container section-wrap rowpad">
+                     <div class="bg_pattern"></div>
+                     <div class="row vertical-center">
+                        <div class="skill-wrapper">
+
+                              <div class="col-md-3 skill-list chartanimate" >
+   
+                                    <img src="images/chart2.png" style="height: 415px;">
+                                      </div>
+   
+                              <div class="col-md-3 skill-list chartanimate1" >
+      
+                               <img src="images/chart1.png" style="height: 415px;padding-top: 8rem;">
+                                 </div>
+
+
+                           <div class="col-md-5 skill-list" style="float:right">
+                                 <!-- <div class="has-animation animation-ltr"> -->
+                                       <h1 class="productanimated1" style="color:#d6e8df">Professional Expertise
+
+                                             Our Specialities</h1>
+                                       <!-- </div> -->
+                                       <br/>
+                                       <p class="productanimated2" style="color:#d6e8df">
+                                             The integration of web fonts has always been one of the largest contributing factors to diversity in the overall look and feel of websites today vs. yesterday. Fonts, just like images, play an important role in helping a website’s overall design stand out from the competition.
+                                       </p>
+                           </div>
+                           
+   
+                             
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+
+    
+        
+
+       
+
+            <section class="l-screen skills-section2 product_sec1 Business-section" style="background: rgba(255,228,224,1);
+            background: -moz-linear-gradient(left, rgba(255,228,224,1) 0%, rgba(100,178,255,1) 100%);
+            background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,228,224,1)), color-stop(100%, rgba(100,178,255,1)));
+            background: -webkit-linear-gradient(left, rgba(255,228,224,1) 0%, rgba(100,178,255,1) 100%);
+            background: -o-linear-gradient(left, rgba(255,228,224,1) 0%, rgba(100,178,255,1) 100%);
+            background: -ms-linear-gradient(left, rgba(255,228,224,1) 0%, rgba(100,178,255,1) 100%);
+            background: linear-gradient(to right, rgba(255,228,224,1) 0%, rgba(100,178,255,1) 100%);">
+                  <div class="section-content">
+                     <header class="top-bar" style="margin-top:10%;">
+                           <div class="has-animation animation-ltr titleanimate">
+                        <h1 class="top-bar__headline txtalg" >Business Opportunity </h1>
+                           </div>
+                     </header>
+                     <div class="container section-wrap rowpad">
+                        <div class="bg_pattern"></div>
+                        <div class="row vertical-center">
+                           <div class="skill-wrapper">
+                              <div class="col-md-6 skill-list businessanimate" style="padding-top: 20px;">
+                                 <img src="images/landing.png" style="height:100%; width:100%">
+                              </div>
+                             
+                              <div class="col-md-6 skill-list" style="padding-top: 20px;">
+                                <h3 class="businessanimate1" style="color:white">
+                                    Active community
+
+                                </h3>
+
+                                <p class="businessanimate2" style="color:white">
+                                    Varsity is an easy to grasp collection of stock market lessons with in-depth coverage and illustrations. Brought to you by Zerodha, India's biggest discount stock broker, it is completely open and FREE to access.
+                                </p>
+                                 </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+   
+
+               <section class="l-screen skills-section2 product_sec1 time-section" style="background: rgba(255,228,224,1);
+               background: -moz-linear-gradient(left, rgba(255,228,224,1) 0%, rgba(208,250,118,1) 100%);
+               background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,228,224,1)), color-stop(100%, rgba(208,250,118,1)));
+               background: -webkit-linear-gradient(left, rgba(255,228,224,1) 0%, rgba(208,250,118,1) 100%);
+               background: -o-linear-gradient(left, rgba(255,228,224,1) 0%, rgba(208,250,118,1) 100%);
+               background: -ms-linear-gradient(left, rgba(255,228,224,1) 0%, rgba(208,250,118,1) 100%);
+               background: linear-gradient(to right, rgba(255,228,224,1) 0%, rgba(208,250,118,1) 100%);">
+                     <div class="section-content">
+                        <header class="top-bar" style="margin-top:10%;">
+                              <div class="has-animation animation-ltr titleanimate">
+                           <h1 class="top-bar__headline txtalg" >Process & TimeLine  </h1>
+                              </div>
+                        </header>
+                        <div class="container section-wrap rowpad">
+                           <div class="bg_pattern"></div>
+                           <div class="row vertical-center">
+                              <div class="skill-wrapper">
+
+                                    <div class="col-md-6 skill-list">
+                                    <ul class="timeline">
+
+                                          <!-- Item 1 -->
+                                          <li class="timelineanimate">
+                                             <div class="direction-r">
+                                                <div class="flag-wrapper">
+                                                   <span class="flag">Freelancer</span>
+                                                   <span class="time-wrapper"><span class="time">2013 - present</span></span>
+                                                </div>
+                                                <div class="desc">My current employment. Way better than the position before!</div>
+                                             </div>
+                                          </li>
+                                         
+                                          <!-- Item 2 -->
+                                          <li class="timelineanimate1">
+                                             <div class="direction-l">
+                                                <div class="flag-wrapper">
+                                                   <span class="flag">Apple Inc.</span>
+                                                   <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+                                                </div>
+                                                <div class="desc">My first employer. All the stuff I've learned and projects I've been working on.</div>
+                                             </div>
+                                          </li>
+                                       
+                                          <!-- Item 3 -->
+                                          <li class="timelineanimate2">
+                                             <div class="direction-r">
+                                                <div class="flag-wrapper">
+                                                   <span class="flag">Harvard University</span>
+                                                   <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
+                                                </div>
+                                                <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div>
+                                             </div>
+                                          </li>
+                                         
+                                       </ul>
+                                       </div>
+                                       <div class="col-md-6 skill-list timeanimate" >
+                                             <img src="images/mob3.png" style="height:100%; width:100%">
+                                          </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </section>
+
+
+
+               
+
+
+            
+      <!--START  CLIENT  SECTION-->
+      <!-- <section class="l-screen client-section">
+         <div class="bg_white_pattern"></div>
+         <div class="sub_div">
+            <header class="top-bar">
+               <h1 class="top-bar__headline">CLIENTS</h1>
+            </header>
+            <div class="container  vertical-center">
+               <div class="row ">
+                  <div id="clients_details">
+                     <div id="clients" class="client-wrap effects">
+                      
+                        <a class="col-md-3 time-wrap" id="client1">
+                           <span class="client_text">
+                             
+                              <img src="images/clients/1.png" alt="client">
+                           </span>
+                        </a>
+                        <a class="col-md-3 col-sm-6 time-wrap" id="client2">
+                           <span class="client_text">
+                             
+                              <img src="images/clients/2.png" alt="client">
+                           </span>
+                        </a>
+                        <a class="col-md-3 col-sm-6" id="client3">
+                           <span class="client_text">
+                            
+                              <img src="images/clients/3.png" alt="client">
+                           </span>
+                        </a>
+                        <a class="col-md-3 col-sm-6" id="client4">
+                           <span class="client_text">
+                             
+                              <img src="images/clients/4.png" alt="client">
+                           </span>
+                        </a>
+                        <a class="col-md-3 col-sm-6" id="client5">
+                           <span class="client_text">
+                             
+                              <img src="images/clients/5.png" alt="client">
+                            
+                           </span>
+                        </a>
+                        <a class="col-md-3 col-sm-6" id="client6">
+                           <span class="client_text">
+                            
+                              <img src="images/clients/6.png" alt="client">
+                           </span>
+                        </a>
+                        <a class="col-md-3 col-sm-6" id="client7">
+                           <span class="client_text">
+                            
+                              <img src="images/clients/7.png" alt="client">
+                           </span>
+                        </a>
+                        <a class="col-md-3 col-sm-6" id="client8">
+                           <span class="client_text">
+                            
+                              <img src="images/clients/8.png" alt="client">
+                           </span>
+                        </a>
+                        <a class="col-md-3 col-sm-6" id="client9">
+                           <span class="client_text">
+                            
+                              <img src="images/clients/9.png" alt="client">
+                             
+                           </span>
+                        </a>
+                        <a class="col-md-3 col-sm-6" id="client10">
+                           <span class="client_text">
+                             
+                              <img src="images/clients/10.png" alt="client">
+                           </span>
+                        </a>
+                        <a class="col-md-3 col-sm-6" id="client11">
+                           <span class="client_text">
+                             
+                              <img src="images/clients/11.png" alt="client">
+                           </span>
+                        </a>
+                        <a class="col-md-3 col-sm-6" id="client12">
+                           <span class="client_text">
+                            
+                              <img src="images/clients/12.png" alt="client">
+                           </span>
+                        </a>
+                      
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section> -->
+      <!-- END CLIENETS SECTION -->
+      <!-- GALLERY SECTION -->
+      <!-- <section class="l-screen gallery-section">
+         <header class="top-bar">
+            <h1 class="top-bar__headline animated">GALLERY</h1>
+         </header>
+         <div class="container vertical-center">
+            <div class="bg_pattern"></div>
+            <div class="gallery">
+               <div>
+                  <div>
+                     <div class="gallery_content">
+                    
+                        <ul id="filterOptions">
+                           <li class="active"><a href="index.html#" class="all"><i class="hi-icon hi-icon-mobil active"></i>ALL</a>
+                           </li>
+                           <li><a href="index.html#" class="catagory1"><i class="hi-icon hi-icon-mobil"></i>PROJECTS</a>
+                           </li>
+                           <li><a href="index.html#" class="catagory2"><i class="hi-icon hi-icon-mobil"></i>MEDIA</a>
+                           </li>
+                        </ul>
+                      
+                        <div class="gallery_content">
+                           <div id="galleryHolder">
+                              <div class="item catagory1 catagory2">
+                                 <a href="images/gallery/large/1.jpg" data-gal="prettyPhoto[gallery3]"><img src="images/gallery/1.jpg"
+                                       alt="Gallery" />
+                                 </a>
+                              </div>
+                              <div class="item catagory1 catagory2">
+                                 <a href="images/gallery/large/2.jpg" data-gal="prettyPhoto[gallery3]"> <img src="images/gallery/2.jpg"
+                                       alt="Gallery" />
+                                 </a>
+                              </div>
+                              <div class="item catagory1">
+                                 <a href="images/gallery/large/3.jpg" data-gal="prettyPhoto[gallery3]"> <img src="images/gallery/3.jpg"
+                                       alt="Gallery" />
+                                 </a>
+                              </div>
+                              <div class="item catagory1 catagory2">
+                                 <a href="images/gallery/large/4.jpg" data-gal="prettyPhoto[gallery3]"> <img src="images/gallery/4.jpg"
+                                       alt="Gallery" />
+                                 </a>
+                              </div>
+                              <div class="item catagory1 catagory2">
+                                 <a href="images/gallery/large/5.jpg" data-gal="prettyPhoto[gallery3]"><img src="images/gallery/5.jpg"
+                                       alt="Gallery" />
+                                 </a>
+                              </div>
+                              <div class="item catagory1 catagory2">
+                                 <a href="images/gallery/large/6.jpg" data-gal="prettyPhoto[gallery3]"> <img src="images/gallery/6.jpg"
+                                       alt="Gallery" />
+                                 </a>
+                              </div>
+                              <div class="item catagory2">
+                                 <a href="images/gallery/large/7.jpg" data-gal="prettyPhoto[gallery3]"> <img src="images/gallery/7.jpg"
+                                       alt="gallery" />
+                                 </a>
+                              </div>
+                              <div class="item catagory1">
+                                 <a href="images/gallery/large/8.jpg" data-gal="prettyPhoto[gallery3]"> <img src="images/gallery/8.jpg"
+                                       alt="Gallery" />
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+           
+         </div>
+      </section> -->
+
+      <!--START CONTACT SECTION -->
+      <section class="l-screen contact-section" id="contact-form-container" style="background: rgba(245,242,242,1);
+      background: -moz-linear-gradient(left, rgba(245,242,242,1) 0%, rgba(208,250,118,1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(245,242,242,1)), color-stop(100%, rgba(208,250,118,1)));
+      background: -webkit-linear-gradient(left, rgba(245,242,242,1) 0%, rgba(208,250,118,1) 100%);
+      background: -o-linear-gradient(left, rgba(245,242,242,1) 0%, rgba(208,250,118,1) 100%);
+      background: -ms-linear-gradient(left, rgba(245,242,242,1) 0%, rgba(208,250,118,1) 100%);
+      background: linear-gradient(to right, rgba(245,242,242,1) 0%, rgba(208,250,118,1) 100%);">
+         <div class="bg_pattern"></div>
+         <header class="top-bar" style="margin-top:10%;">
+               <div class="has-animation animation-ltr titleanimate">
+            <h1 class="top-bar__headline" style="text-align:center" > Contact Us </h1>
+               </div>
+         </header>
+         <div class="container-fluid vertical-center" >
+            <div class="contact">
+               <div class="contact-content">
+                  <div class="container">
+                     <div class="col-md-12 contact-right">
+                        <!--START CONTACT DETAILS -->
+                        <div class="contact-info-wrapper">
+                           <div class="contact-info text-center col-sm-12 fadeIn animated">
+                              <div class="row">
+                                 <div class="col-sm-4">
+                                    <h3><i class="fa fa-map-marker" style="font-size: 4rem;" aria-hidden="true"></i></h3>
+                                    <p>2b, Jahnavi Heights, 100ft Road, Arumbakkam, Chennai-600106</p>
+                                 </div>
+                                 <div class="col-sm-4">
+                                    <div class="phone">
+                                       <h3><i class="fa fa-phone" style="font-size: 4rem;"  aria-hidden="true"></i></h3>
+                                       <p>+91 95518 12345</p>
+                                       <p>+91 95518 65345</p>
+                                    </div>
+                                 </div>
+                                 <div class="col-sm-4">
+                                    <div class="email">
+                                          <h3><i class="fa fa-globe" style="font-size: 4rem;"  aria-hidden="true"></i></h3>
+                                       <p>info@greatventures.in</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!--END CONTACT DETAILS -->
+                        <!--START CONTACT FORM INPUTS-->
+                        <form action="#" id="mail_form" method="post">
+                           <input type="text" placeholder="Your name" name="contact[name]">
+                           <input type="text" placeholder="Your email" name="contact[email]">
+                           <textarea placeholder="Your message" id="message" name="contact[message]"></textarea>
+                           <br>
+                           <button class="button submit-button"><i class="button-icon fa fa-envelope" aria-hidden="true"></i>
+                              <span>SEND</span></button>
+                        </form>
+                        <!--END CONTACT FORM INPUTS-->
+                     </div>
+                     <div class="clearfix"></div>
+                  </div>
+                  <div class="result"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END CONTACT SECTION -->
+      <!--START FOLLOW US SECTION -->
+      <section class="l-screen follow-section" style="background: rgba(245,242,242,1);
+      background: -moz-linear-gradient(left, rgba(245,242,242,1) 0%, rgba(95,97,92,1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(245,242,242,1)), color-stop(100%, rgba(95,97,92,1)));
+      background: -webkit-linear-gradient(left, rgba(245,242,242,1) 0%, rgba(95,97,92,1) 100%);
+      background: -o-linear-gradient(left, rgba(245,242,242,1) 0%, rgba(95,97,92,1) 100%);
+      background: -ms-linear-gradient(left, rgba(245,242,242,1) 0%, rgba(95,97,92,1) 100%);
+      background: linear-gradient(to right, rgba(245,242,242,1) 0%, rgba(95,97,92,1) 100%);">
+         <div class="bg_pattern"></div>
+         <div class="container-fluid  ">
+            <div class="wraper vertical-center">
+               <div class="follow-us-wrapper">
+                  <div class="row">
+                     <div class="col-md-12 col-lg-12 social-wrapper">
+                        <a href="index.html#"><img src="images/logo (1).png" style="width: 250px !important;" alt="" title="" width="121">
+                        </a>
+                        <ul class="follow-social">
+                           <!-- SOCIAL LINKS -->
+                           <li><a href="http://www.twitter.com/" class="bt-icon"><i class="icon-social-twitter "></i></a>
+                           </li>
+                           <li><a href="https://plus.google.com/" class="bt-icon"><i class="icon-social-google"></i></a>
+                           </li>
+                           <li><a href="http://www.facebook.com/" class="bt-icon"><i class="icon-social-facebook"></i></a>
+                           </li>
+                           <li><a href="https://github.com/" class="bt-icon"><i class="icon-social-github"></i></a>
+                           </li>
+                        </ul>
+                        <h2>Strategize and Execute</h2>
+                     </div>
+                  </div>
+                  <!-- START PROJECT COUNTER  -->
+                  <div class="row project-counter">
+                     <div class="col-sm-3 text-center">
+                        <span class="count" data-count="525">525</span>
+                        <p>MEDIA PROJECTS</p>
+                     </div>
+                     <div class="col-sm-3 text-center">
+                        <span class="count" data-count="328">328</span>
+                        <p>EMPANADAS ORDERED</p>
+                     </div>
+                     <div class="col-sm-3 text-center">
+                        <span class="count" data-count="124">124</span>
+                        <p>AWARDS RECIEVED</p>
+                     </div>
+                     <div class="col-sm-3 text-center">
+                        <span class="count" data-count="456">456</span>
+                        <p>AWZOM CREATIVES</p>
+                     </div>
+                  </div>
+                  <!-- END PROJECT COUNTER  -->
+               </div>
+            </div>
+            <a id="scrollUp" href="index.html#1"><i class=" icon-arrow-up"></i> </a>
+         </div>
+      </section>
+   </div>
+   <!-- END MAIN DIV -->
+   <script src="js/jquery-3.1.1.min.js"></script>
+   <script src="js/jquery-migrate.min.js"></script>
+   <script src="js/jquery-ui.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="js/iscroll.js"></script>
+   <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+   <script type="text/javascript" src="js/jquery.easings.min.js"></script>
+   <script src="js/classie.js"></script>
+   <!-- GALLERY -->
+   <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+   <!-- CUSTOM JS -->
+   <script src="js/contact.js"></script>
+   <script src="js/custom.js"></script>
+
+   <script>
+
+   </script>
+
+
+
+</body>
+
+</html>
