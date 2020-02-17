@@ -2006,6 +2006,23 @@ padding: 5px;">
 
 
         // });
+
+
+        $(document).on('keydown', function(event) {
+            if (event.key == "Escape") {
+                // debugger;
+                console.log("location", window.location.hash)
+   var s = window.location.hash;      
+// var s = '/Controller/Action?sfasf';
+var n = s.indexOf('/');
+s = s.substring(0, n != -1 ? n : s.length);
+// console.log(s);
+
+                window.location = s +"/0";
+                this.modal.close();
+            }
+        });
+
  $("#showhide").click(function () {
 
     //  $('#Mytrade').removeClass("show");

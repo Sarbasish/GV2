@@ -842,7 +842,7 @@ Skills
 ------------------------------------------------------------------------ */
 
 .skill-list{
-    margin: 0 -70px;
+    /* margin: 0 -70px; */
 }
 
 .skills-section {
@@ -5254,7 +5254,7 @@ input[type="button"] {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background: #FFFFFF;
     text-align: center;
-    border-radius: 200px;
+    border-radius: 60%;
     height: 400px;
 }
 
