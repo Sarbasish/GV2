@@ -1,3 +1,10 @@
+body{
+    font-size: 13px;
+}
+
+ul li{
+    margin-bottom:8px;
+}
 .main-menu {
     align-self: center;
     position: absolute;
@@ -21,6 +28,13 @@
     letter-spacing: 0.2em;
     color: #76a904;
     text-transform: uppercase;
+}
+.policy_title{
+    font-size:18px;
+    /* text-decoration: underline; */
+    color: #76a904;
+    font-weight: 600;
+    margin-bottom: 15px;
 }
 
 .ct-heading h3.ct-heading-tag {
