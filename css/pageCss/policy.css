@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito|Quicksand&display=swap');
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Josefin Sans', sans-serif; */
 body{
     font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
 }
-
+b{
+    display: block;
+    margin: 15px 0 10px 0;
+}
+ol li{
+    margin-bottom: 8px;
+    margin-left: 30px;
+    opacity: 0.8;
+}
 ul li{
     margin-bottom:8px;
+    list-style: disc !important;
+    margin-left: 30px;
 }
 .main-menu {
     align-self: center;

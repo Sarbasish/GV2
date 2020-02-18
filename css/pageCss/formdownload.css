@@ -1,3 +1,17 @@
+.toggleView{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 0px;
+    top:10px;
+}
+.listViewContainer {
+    display: none;
+}
+
+.ct-heading-sub{
+    position: relative;
+}
 .main-menu {
     align-self: center;
     position: absolute;
@@ -480,7 +494,18 @@ button:hover .button-text {
     text-align: center;
     min-width: 30%;
 }
-
+.listViewContainer .file .file-right a{
+    display: inline;
+}
+.listViewContainer .filecontent>div.ext {
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+}
+.listViewContainer .file-xinfo div{
+    display: inline;
+    margin-right: 30px; 
+}
 .downloadlink {
     background-color: #76bc58;
     border-color: #76bc58;
