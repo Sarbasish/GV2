@@ -878,7 +878,7 @@
         <section class="l-screen  project-section" style="background:#fff !important;">
 
             <div class="container-fluid" id="project_all_container">
-                <header class="top-bar" id="project_head" style="padding-top:8%">
+                <header class="top-bar" id="project_head" style="padding-top:6%">
                     <div class="has-animation animation-ltr titleanimate">
                         <h1 class="top-bar__headline txtalg titlesty">Products</h1>
                     </div>
@@ -1170,386 +1170,50 @@
                                     </div>
                                 </header>
                                 <div class="home-svg-text">
-
-                                    <div class="row is-animated">
-
-                                        <style>
-                                            .img {
-                                                border-radius: 2px;
-                                                box-shadow: 0 0 5px #343436;
-                                                filter: brightness(1.1);
-                                                height: 150px;
-                                                width: 200px;
-                                            }
-
-                                            .img:target {
-                                                height: 450px;
-                                                width: 500px;
-                                            }
-
-                                            .img:target+.close {
-                                                display: block;
-                                            }
-
-                                            .img:target+.close+.expand {
-                                                display: none;
-                                            }
-
-                                            .close {
-                                                background-image: url(https://bit.ly/29QeT21);
-                                                background-repeat: no-repeat;
-                                                bottom: 418px;
-                                                display: none;
-                                                height: 32px;
-                                                left: 462px;
-                                                margin-top: -32px;
-                                                position: relative;
-                                                width: 32px;
-                                            }
-
-                                            .expand {
-                                                bottom: 125px;
-                                                margin-left: -32px;
-                                                margin-right: 16px;
-                                                pointer-events: none;
-                                                position: relative;
-                                            }
-
-                                            #wrapper {
-                                                margin: auto;
-                                                padding: 10px;
-                                                text-align: center;
-                                                width: 500px;
-                                            }
-                                        </style>
-
-
-
-
-                                        <div class="col-lg-6 col-md-6 col-sm-12"
-                                            style="    padding-top:15% !important;">
-                                            <div class="has-animation animation-ltr titleanimate"
-                                                style="width:100%;text-align: center;">
-
-                                                <style>
-                                                    #overLay {
-                                                        /* position: fixed; */
-                                                        top: 0;
-                                                        left: 0;
-                                                        z-index: 900;
-                                                        width: 100%;
-                                                        height: 100%;
-                                                        background: rgba(0, 0, 0, 0.5);
-                                                    }
-
-                                                    .modalContent {
-                                                        display: none;
-                                                        /* overflow:auto; */
-                                                        position: absolute;
-                                                        z-index: 1000;
-                                                        padding: 20px;
-                                                        background: #e4e4e4;
-                                                        color: #000000;
-                                                    }
-
-                                                    .modalContent1 {
-                                                        display: none;
-                                                        /* overflow:auto; */
-                                                        position: absolute;
-                                                        z-index: 1000;
-                                                        padding: 20px;
-                                                        background: #e4e4e4;
-                                                        color: #000000;
-                                                    }
-
-                                                    .modalContent2 {
-                                                        display: none;
-                                                        /* overflow:auto; */
-                                                        position: absolute;
-                                                        z-index: 1000;
-                                                        padding: 20px;
-                                                        background: #e4e4e4;
-                                                        color: #000000;
-
-
-                                                    }
-
-                                                    .closeBtn {
-                                                        position: absolute;
-                                                        top: 10px;
-                                                        right: 10px;
-                                                        background: #76a904;
-                                                        color: white;
-                                                        padding: 5px;
-                                                        border-radius: 10px;
-                                                        padding-left: 15px;
-                                                        padding-right: 15px;
-                                                        cursor: pointer;
-                                                    }
-
-                                                    .closeBtn1 {
-                                                        position: absolute;
-                                                        top: 10px;
-                                                        right: 10px;
-                                                        background: #76a904;
-                                                        color: white;
-                                                        padding: 5px;
-                                                        border-radius: 10px;
-                                                        padding-left: 15px;
-                                                        padding-right: 15px;
-                                                        cursor: pointer;
-                                                    }
-
-                                                    .closeBtn2 {
-                                                        position: absolute;
-                                                        top: 10px;
-                                                        right: 10px;
-                                                        background: #76a904;
-                                                        color: white;
-                                                        padding: 5px;
-                                                        border-radius: 10px;
-                                                        padding-left: 15px;
-                                                        padding-right: 15px;
-                                                        cursor: pointer;
-                                                    }
-                                                </style>
-
-
-
-
-
-                                                <button id="firstbook" class="trigger clickMe" data-modal="item" style="border: 4px solid #e4e4e4;
-background: white;
-border-radius: 5px;
-padding: 5px;">
-                                                    <div class="sample thumb3" sample="steve-jobs" style="height: 225px;
-       width: 150px;">
-                                                        <img src="images/15.jpg" style="width:100%;height:100%">
-                                                    </div>
-
-
-                                                </button>
-                                                <button id="secondbook" class="trigger1 clickMe" data-modal="item1" style="border: 4px solid #e4e4e4;
-background: white;
-border-radius: 5px;
-padding: 5px;">
-                                                    <div class="sample thumb3" sample="steve-jobs" style="height: 225px;
-       width: 150px;">
-                                                        <img src="images/13.jpg" style="width:100%;height:100%">
-                                                    </div>
-                                                </button>
-                                                <button id="thirdbook" class="trigger2 clickMe" data-modal="item2" style="border: 4px solid #e4e4e4;
-background: white;
-border-radius: 5px;
-padding: 5px;">
-                                                    <div class="sample thumb3" sample="steve-jobs" style="height: 225px;
-       width: 150px;">
-                                                        <img src="images/14.jpg" style="width:100%;height:100%">
-                                                    </div>
-                                                </button>
-
-                                                <div class="modalContent item" style="left: 180px;
-                                                top: -150px;    border-radius: 15px;
-                                                background: white;">
-                                                    <p id="closebtn" class="closeBtn">Close</p>
-                                                    <div id="flipbook">
-                                                        <div class="hard"><img src="images/15.jpg"
-                                                                style="width:100%;height:100%">
+                                    <div class="row">
+                                            <div class="col-md-4">
+                                                    <div class="product">
+                                                        <div class="productImg">
+                                                            <img src="images/Dicon.png" alt="">
                                                         </div>
-                                                        <div class="hard"></div>
-                                                        <div class=""> <img src="extra/samples/magazine/pages/1.jpg"
-                                                                style="width:100%;height:100%">
+                                                        <div class="productTitle">Title</div>
+                                                        <div class="productDesc">
+                                                                Investing in shares or stock market is inarguably the best route to long-term wealth accumulation.
                                                         </div>
-                                                        <div class=""> <img src="extra/samples/magazine/pages/2.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class=""> <img src="extra/samples/magazine/pages/3.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class=""> <img src="extra/samples/magazine/pages/4.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class=""> <img src="extra/samples/magazine/pages/5.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class=""> <img src="extra/samples/magazine/pages/6.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class="hard"></div>
-                                                        <div class="hard"><img src="images/creative_bookcover.png"
-                                                                style="width:100%;height:100%"></div>
-                                                    </div>
-                                                </div><!-- /.mordalContent .item  -->
-                                                <div class="modalContent1 item1" style="left: 180px;
-                                                top: -150px;    border-radius: 15px;
-                                                background: white;">
-                                                    <p id="closebtn1" class="closeBtn1">Close</p>
-                                                    <div id="flipbook1">
-                                                        <div class="hard"><img src="images/13.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class="hard"></div>
-                                                        <div class=""> <img src="images/book/2.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class=""> <img src="images/book/3.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class=""> <img src="images/book/4.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class=""> <img src="images/book/5.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class=""> <img src="images/book/6.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class=""> <img src="images/book/7.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-
-                                                        <div class="hard"></div>
-                                                        <div class="hard"><img src="images/creative_bookcover.png"
-                                                                style="width:100%;height:100%"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="modalContent2 item2" style="left: 180px;
-                                                top: -150px;    border-radius: 15px;
-                                                background: white;">
-                                                    <p id="closebtn2" class="closeBtn2">Close</p>
-                                                    <div id="flipbook2">
-                                                        <div class=""><img src="images/14.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class="hard"></div>
-                                                        <div class=""> <img src="images/book/8.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class=""> <img src="images/book/9.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class=""> <img src="images/book/10.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class=""> <img src="images/book/11.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class=""> <img src="images/book/12.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class=""> <img src="extra/samples/magazine/pages/6.jpg"
-                                                                style="width:100%;height:100%">
-                                                        </div>
-                                                        <div class="hard"></div>
-                                                        <div class="hard"><img src="images/creative_bookcover.png"
-                                                                style="width:100%;height:100%"></div>
-                                                    </div>
-                                                </div>
-
-
-
-
-
-
-                                            </div>
-
-
-
-
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-6 col-sm-12 homepagetitle"
-                                            style="    padding-top: 10% !important;">
-
-                                            <div class="container horizontal rounded" style="padding-right:60px">
-
-                                                <div class="progress-bar horizontal">
-                                                    <strong>Intraday equity (25%)</strong>
-                                                    <div class="progress-track">
-
-                                                        <div class="progress-fill" style="width:25%">
-
+                                                        <div class="knowMore">
+                                                            <button> Know More</button>
                                                         </div>
                                                     </div>
                                                 </div>
-
-                                                <div class="progress-bar horizontal">
-                                                    <strong>Delivery equity (75%)</strong>
-
-                                                    <div class="progress-track">
-                                                        <div class="progress-fill" style="width:75%">
-
-                                                        </div>
+                                                <div class="col-md-4">
+                                                        <div class="product">
+                                                                <div class="productImg">
+                                                                    <img src="images/Dicon2.png" alt="">
+                                                                </div>
+                                                                <div class="productTitle">Title</div>
+                                                                <div class="productDesc">
+                                                                        Investing in shares or stock market is inarguably the best route to long-term wealth accumulation.
+                                                                </div>
+                                                                <div class="knowMore">
+                                                                    <button> Know More</button>
+                                                                </div>
+                                                            </div>
                                                     </div>
-                                                </div>
-
-                                                <div class="progress-bar horizontal">
-                                                    <strong>F&O - Futures(60%)</strong>
-                                                    <div class="progress-track">
-                                                        <div class="progress-fill" style="width:60%">
-
+                                                    <div class="col-md-4">
+                                                            <div class="product">
+                                                                    <div class="productImg">
+                                                                        <img src="images/Dicon3.png" alt="">
+                                                                    </div>
+                                                                    <div class="productTitle">Title</div>
+                                                                    <div class="productDesc">
+                                                                            Investing in shares or stock market is inarguably the best route to long-term wealth accumulation.
+                                                                    </div>
+                                                                    <div class="knowMore">
+                                                                        <button> Know More</button>
+                                                                    </div>
+                                                                </div>
                                                         </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="progress-bar horizontal">
-                                                    <strong>F&O - Options (20%)</strong>
-                                                    <div class="progress-track">
-                                                        <div class="progress-fill" style="width:20%">
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="progress-bar horizontal">
-                                                    <strong>Commodity - MCX(34%)</strong>
-                                                    <div class="progress-track">
-                                                        <div class="progress-fill" style="width:34%">
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="progress-bar horizontal">
-                                                    <strong> MCX (82%)</strong>
-                                                    <div class="progress-track">
-                                                        <div class="progress-fill" style="width:82%">
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-
-                                            </div>
-
-                                        </div>
-
-
                                     </div>
-
-                                    <div class="row" style="    padding-top: 5%;">
-                                        <div class="row project-counter">
-                                            <div class="col-sm-3 text-center dailyanimate1">
-                                                <span class="count" data-count="525">525</span>
-                                                <p>MEDIA PROJECTS</p>
-                                            </div>
-                                            <div class="col-sm-3 text-center dailyanimate2">
-                                                <span class="count" data-count="328">328</span>
-                                                <p>EMPANADAS ORDERED</p>
-                                            </div>
-                                            <div class="col-sm-3 text-center dailyanimate3">
-                                                <span class="count" data-count="124">124</span>
-                                                <p>AWARDS RECIEVED</p>
-                                            </div>
-                                            <div class="col-sm-3 text-center dailyanimate4">
-                                                <span class="count" data-count="456">456</span>
-                                                <p>AWZOM CREATIVES</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
                                 </div>
 
                             </div>

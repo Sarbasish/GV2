@@ -283,7 +283,7 @@ Home
 }
 .home-svg-text {
     position: absolute;
-    top: 2%;
+    top: 120px;
     width: 100%;
     height: 98%;
     z-index: 10;
@@ -6352,6 +6352,37 @@ margin: -50px 0px 0px -50px;
         left: 0;
         z-index: 9;
         opacity:0.3;
+    }
+    .product{
+        text-align: center;
+        padding: 30px;
+    }
+    .productImg{
+
+    }
+    .productTitle{
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-family: 'montserrat-medium', sans-serif;
+        line-height: 28px;
+        font-style: normal;
+        color: #49ae1f;
+        text-transform: capitalize;
+    }
+    .productDesc{
+        margin:10px 0;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .knowMore button{
+        background: #f0f0f0;
+        border: 2px solid #f0f0f0;
+        color: #232323;
+    }
+    .knowMore button:hover{
+        background: #4CAF50;
+        color: #fff;
     }
 
     /*Sarbasish*/
