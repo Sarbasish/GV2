@@ -849,7 +849,44 @@ Skills
 
 .skill-list{
     /* margin: 0 -70px; */
+    padding: 20px 0;
+    text-align: center;
 }
+.skill-list .brockerageContainer{
+    border:1px solid #ccc;
+}
+.skill-list .title{
+    font-weight: 600;
+    text-align: center;
+}
+.skill-list .title .subtitle{
+    font-size: 12px;
+     font-weight: 400;
+}
+.skill-list .amtStandard{
+    font-size: 13px;
+    font-weight: 400;
+}
+.skill-list .amt span{
+    font-size: 55px;
+    font-weight: 600;
+}
+.skill-list .cover img{
+    width:100%;
+    margin-bottom: 10px;
+}
+.skill-list .details_package_info ul li{
+    display: block;
+    margin-bottom:5px;
+    text-align: center;
+    font-size: 13px;
+    border-bottom:1px solid rgb(233,263,243);
+}
+.skill-list .details_package_info ul li:last-child{
+    border:0px;
+    padding-bottom:5px;
+}
+
 
 .skills-section {
     background-color: #f9f9f9;
@@ -1281,7 +1318,7 @@ Projects
 .project_grid figure {
     position: relative;
     float: left;
-    max-height: 300px;
+    /* max-height: 300px; */
     width: 33.33%;
     height: auto;
     text-align: center;
@@ -1363,19 +1400,23 @@ figure.effect-project.desc {
 figure.effect-project p {
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: -80px;
     margin: 3em;
     padding: 0 1em;
-    max-width: 250px;
+    width:100%;
+    /* max-width: 250px; */
     border-right: 4px solid #fff;
     text-align: right;
-    opacity: 0;
+    opacity: 1;
     line-height: 22px;
-    -webkit-transition: opacity 0.35s;
-    -moz-transition: opacity 0.35s;
-    -ms-transition: opacity 0.35s;
-    -o-transition: opacity 0.35s;
-    transition: opacity 0.35s;
+}
+figure .project-summary{
+    /* display: none; */
+    max-width:300px;
+    font-size: 13px;
+    color: #000;
+    text-align: center;
+    margin: auto;
 }
 figure.effect-project h2 {
     text-align: center;
@@ -1722,7 +1763,7 @@ figure.effect-project:hover figcaption::before {
     cursor: pointer;
 }
 .project-top {
-    margin-top: 30px
+    margin-top: 120px
 }
 .menu-logo.menu_color_4.hide_logo {
     opacity: 0;
