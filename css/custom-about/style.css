@@ -2629,7 +2629,7 @@ Primary Use:    Software and App Landing
      background-position:center center;
      background-repeat:no-repeat;
  }
- 
+ .feature-section
  /* Feature Block */
  
  .feature-block{
@@ -2723,8 +2723,8 @@ Primary Use:    Software and App Landing
  
  .feature-section{
      position:relative;
-     padding:120px 0px 60px;
-     background: url(../images/background/feature-bg.png);
+     padding:120px 0px 0px;
+     /* background: url(../images/background/feature-bg.png); */
      background-position:center top;
      background-size:cover;
  }

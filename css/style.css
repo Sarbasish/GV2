@@ -853,6 +853,7 @@ Skills
 }
 .skill-list .brockerageContainer{
     border:1px solid #ccc;
+    padding: 10px 0;
 }
 .skill-list .title{
     font-weight: 600;
@@ -1172,6 +1173,14 @@ Projects
 }
 .project-slide-name {
     top: 20%;
+}
+.project-slide-name h2{
+    opacity: 0;
+    display: none;
+}
+.project-slide-name img {
+    width: 300px;
+    height: auto;
 }
 .project-slide-name h1,
 .project-slide-name h2 {
@@ -6360,8 +6369,12 @@ margin: -50px 0px 0px -50px;
         text-align: center;
         padding: 30px;
     }
-    .productImg{
-
+    .prod_logo{
+        width: 200px;
+        margin:auto;
+    }
+    .prod_logo img {
+        width: 100%;
     }
     .productTitle{
         font-size: 20px;
@@ -6392,6 +6405,46 @@ margin: -50px 0px 0px -50px;
     }
 /* 
     signup css */
+    .signUpBottomInfo{
+     text-align: right;
+     margin-top: 100px;
+     margin-right:50px;
+    }
+    ul.signUpBottomInfo li {
+        display: inline-block;
+        vertical-align: middle;
+        border-right: 1px solid #ccc;
+        padding-right: 15px;
+        padding-left: 15px;
+        line-height:35px;
+        text-align:left;
+    }
+    .signUpBottomInfo li:last-child{
+        border:0px;
+    }
+    .signUpBottomInfo span i{
+        font-size:25px;
+    }
+    .signUpBottomInfo span{
+        font-size:50px;
+        font-weight:700;
+        line-height:30px;
+        color:#000;
+        display:inline-block;
+        vertical-align:middle;
+        text-align:left;
+    }
+    .signUpBottomInfo li img{
+        max-width:100px;
+        height:auto;
+    }
+    .signUpBottomInfo p{
+        font-size:12px;
+        line-height:14px;
+        display:inline-block;
+        vertical-align:middle;
+        text-align:left;
+    }
     .inner-box{
         background-image:url(../images/bg.jpeg) !important;
         color: #fff; 
@@ -6431,7 +6484,8 @@ margin: -50px 0px 0px -50px;
         text-align: center;
         width: 100%;
         font-size: 30px;
-        color: #49ae1f
+        color: #49ae1f;
+        line-height: 30px;
     }
     .gv_Home{
         text-align:left;
@@ -6466,9 +6520,21 @@ margin: -50px 0px 0px -50px;
         font-size: 20px;
         text-align: center;
     }
+    .opanAccount a{
+        color:#000;
+    }
+    .opanAccount a:hover,
     .openAccount:hover{
         background: #49ae1f;
         color:#fff;
+    }
+    #feature .feature-block-three {
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .info-section{
+        background: #f0f0f0;
     }
     /*Sarbasish*/
 
