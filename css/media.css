@@ -1556,7 +1556,7 @@
         height: 3.5em;
         width: 100%;
         text-align: center;
-        color: #000;
+        color: #616161;
     }
     .project-slide-social {
         top: auto;
@@ -1573,7 +1573,7 @@
         display: inline;
     }
     .project-slide-social a .fa {
-        color: #000;
+        color: #616161;
         font-size: 20px;
         letter-spacing: 20px;
     }

@@ -442,7 +442,7 @@
         }
         .bottom_wrapper .send_message .text:hover {
           
-            color: #000;
+            color: #616161;
     /* padding: 15px; */
         }
 
@@ -542,7 +542,7 @@
             border-bottom-right-radius: 6px;
             border-bottom-left-radius: 6px;
             /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px; */
-            color: #000;
+            color: #616161;
             border-width: 0px;
             border-style: initial;
             border-color: initial;
@@ -594,7 +594,7 @@
             float: left;
             font-size: 16px; */
             /* background: #f0f0f0;
-            color: #000000;
+            color: #616161000;
             padding: 5px 10px;
             border-radius: 10px;
             border-bottom-left-radius: 0px;
@@ -771,7 +771,7 @@
 
         .spanextra {
             display: inline-block;
-    background-color: #000;
+    background-color: #616161;
     width: 5px;
     height: 5px;
     border-radius: 100%;

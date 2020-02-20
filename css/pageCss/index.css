@@ -572,9 +572,9 @@ background: -o-linear-gradient(#fff, #999); */
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     border-radius: 12px;
-    -moz-box-shadow: 1px 1px 3px #000;
-    -webkit-box-shadow: 1px 1px 3px #000;
-    box-shadow: 1px 1px 3px #000;
+    -moz-box-shadow: 1px 1px 3px #616161;
+    -webkit-box-shadow: 1px 1px 3px #616161;
+    box-shadow: 1px 1px 3px #616161;
     font-size: 17px;
 }
 
@@ -1193,7 +1193,7 @@ input[type="text"] {
     -moz-box-shadow: none;
     -o-box-shadow: none;
     box-shadow: none;
-    color: #000;
+    color: #616161;
 }
 
 
@@ -1241,7 +1241,7 @@ input[type="email"] {
     -moz-box-shadow: none;
     -o-box-shadow: none;
     box-shadow: none;
-    color: #000;
+    color: #616161;
 
 
 }
@@ -1253,7 +1253,7 @@ input[type="text"] {
     -moz-box-shadow: none;
     -o-box-shadow: none;
     box-shadow: none;
-    color: #000;
+    color: #616161;
 
 }
 
@@ -1264,7 +1264,7 @@ input[type="password"] {
     -moz-box-shadow: none;
     -o-box-shadow: none;
     box-shadow: none;
-    color: #000;
+    color: #616161;
 
 }
 
@@ -1275,7 +1275,7 @@ input[type="tel"] {
     -moz-box-shadow: none;
     -o-box-shadow: none;
     box-shadow: none;
-    color: #000;
+    color: #616161;
 
 }
 
@@ -1286,7 +1286,7 @@ input[type="number"] {
     -moz-box-shadow: none;
     -o-box-shadow: none;
     box-shadow: none;
-    color: #000;
+    color: #616161;
 
 }
 
@@ -1297,7 +1297,7 @@ textarea {
     -moz-box-shadow: none;
     -o-box-shadow: none;
     box-shadow: none;
-    color: #000;
+    color: #616161;
 
 }
 
@@ -1560,7 +1560,7 @@ button:focus {
 
 .footer-section .footer-links__title {
     font-size: 14px;
-    color: #000;
+    color: #616161;
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 10px;
