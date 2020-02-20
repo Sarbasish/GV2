@@ -28,7 +28,7 @@ General
 */
 /* Fonts */
 @import url("fonts.css");
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');    overflow-x: hidden;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');   
 
 article,
 aside,
@@ -225,7 +225,7 @@ Home
 }
 
 .gv_Home{
-    padding-top: 150px;
+    /* padding-top: 150px; */
 }
 
 .home-section {
@@ -455,10 +455,9 @@ _:-ms-lang(x),
     padding-left: 1em;
     text-indent: -1em;
     line-height: 1.2em;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 15px;
     letter-spacing: 0.75px;
-    color:black;
 }
 .column .time-wrap ul li:before {
     content: "\f192";
@@ -467,7 +466,7 @@ _:-ms-lang(x),
     font-size: 13px;
     opacity: 0;
     position: relative;
-    top: -2px;
+    top: 0px;
     vertical-align: middle;
     font-weight: 100;
 }
@@ -497,14 +496,14 @@ _:-ms-lang(x),
     animation-delay: 200ms;
 }
 #accolades-wrap .wrap-container #column-three .time-wrap {
-    width: 220px;
+    width: 270px;
     float: left;
     padding: 0;
     color: rgba(255, 255, 255, 0.97);
     text-align: left;
     padding-left: 80px;
     margin-top: 170px;
-    margin-right: -166px;
+    margin-right: -216px;
     -webkit-animation-delay: 150ms;
     -moz-animation-delay: 150ms;
     -ms-animation-delay: 150ms;
@@ -874,6 +873,10 @@ Skills
 .skill-list .cover img{
     width:100%;
     margin-bottom: 10px;
+}
+.skill-list .cover{
+    max-height:150px;
+    overflow:hidden;
 }
 .skill-list .details_package_info ul li{
     display: block;
@@ -6409,6 +6412,63 @@ margin: -50px 0px 0px -50px;
         border-radius: 5px;
         padding:5px 10px;
         font-size:12px;
+    }
+    .home-svg-text h4{
+        text-align: center;
+        margin:50px 0 10px 0;
+    }
+    .home-svg-text h5{
+        max-width: 650px;
+        margin: auto;
+        text-align: center;
+        font-weight: lighter;
+        color: #5e5e5e;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.8px;
+    }
+    .randomText{
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+        color: #49ae1f
+    }
+    .gv_Home{
+        text-align:left;
+    }
+    .gvLogo img{
+        max-width: 200px;
+    }
+    .gvLogo{
+        font-size: 30px;
+    }
+    .gv_Home .pricing-price{
+        line-height: 30px;
+        padding: 12px;
+        margin-left: 0px;
+        display: inline-block;
+        font-size: 29px;
+
+    }
+    .gv_Home ul{
+        font-size: 15px;
+    line-height: 30px;
+    padding-left: 50px;
+    padding-top: 30px;
+    }
+    .openAccount{
+        width: 230px;
+        margin: auto;
+        border: 1px solid #49ae1f;
+        padding: 10px 15px;
+        border-radius: 12px;
+        margin-top: 30px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .openAccount:hover{
+        background: #49ae1f;
+        color:#fff;
     }
     /*Sarbasish*/
 

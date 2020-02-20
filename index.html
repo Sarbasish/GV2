@@ -491,21 +491,41 @@
                             <div class="home-svg-info">
                                 <!-- START SVG -->
                                 <div class="home-svg-text">
-
+                                    <div class="container">
                                     <div class="row is-animated gv_Home">
 
-                                        <div class="col-lg-8 col-md-8 col-sm-12 " style=" padding-top: 40px;" >
+                                        <div class="col-lg-7 col-md-7 col-sm-12 " style=" padding-top: 40px;" >
                                            
-                                               <img src="images/Gv_Img.png" alt=" Gv Images">
+                                               <!-- <img src="images/Gv_Img.png" alt=" Gv Images"> -->
+                                               <div class="gvLogo"> <img src="images/AUM_Logo.png" alt="Aum Logo"> Enabling Emerging Growth</div>
+                                                <ul>
+                                                    <li> <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+                                                    Trade Seamlessly across platforms
+                                                
+                                                    </li>
+                                                    <li> <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+                                                        Start your growth Engine with our Trustworthy trader experience  </li>
+                                                   
+                                                </ul>
+                                                <span class="pricing-price">
+                                                        <i class="fa fa-gift" aria-hidden="true"></i>
+                                                    0 % brokerage
+                                                       
+                                                    </span>
+                                                <span class="pricing-price"> 
+                                                        <i class="fa fa-gift" aria-hidden="true"></i>
+                                                    Flat Rs.29 per trade</span>
 
+                                                <div class="openAccount"> Open An Account</div>
 
                                         </div>
-                                        <div class="col-lg-4 col-md-4 col-sm-12 imaganimate" style="padding-top: 50px;">
+                                        <div class="col-lg-5 col-md-5 col-sm-12 imaganimate" style="padding-top: 50px;">
 
                                             <img src="images/gv_home_mobile.png" style="width:100%">
 
                                         </div>
 
+                                    </div>
 
                                         <!-- END SVG -->
                                     </div>
@@ -1171,6 +1191,11 @@
                                 </header>
                                 <div class="home-svg-text">
                                     <div class="row">
+                                        <div class="col-md-12">
+                                            <h4>ACCESS DETAILED RESEARCH REPORTS FROM OUR DEDICATED RESEARCH TEAM</h4>
+                                             <h5>Make informed investment decisions across equity, commodity, and currency segments with our specific event-based daily, weekly, and monthly reports.
+                                                </h5>
+                                        </div>
                                             <div class="col-md-4">
                                                     <div class="product">
                                                         <div class="productImg">
@@ -1184,6 +1209,11 @@
                                                             <button> Know More</button>
                                                         </div>
                                                     </div>
+                                                    <div class="randomText"  >
+                                                            <i class="fa fa-gg-circle" aria-hidden="true"></i>
+                                                                <div id="Num1"></div>
+                                                    </div>
+                                                   
                                                 </div>
                                                 <div class="col-md-4">
                                                         <div class="product">
@@ -1198,6 +1228,10 @@
                                                                     <button> Know More</button>
                                                                 </div>
                                                             </div>
+                                                            <div class="randomText"  >
+                                                                    <i class="fa fa-eur" aria-hidden="true"></i>
+                                                                        <div id="Num2"></div>
+                                                            </div>
                                                     </div>
                                                     <div class="col-md-4">
                                                             <div class="product">
@@ -1211,6 +1245,10 @@
                                                                     <div class="knowMore">
                                                                         <button> Know More</button>
                                                                     </div>
+                                                                </div>
+                                                                <div class="randomText"  >
+                                                                        <i class="fa fa-ils" aria-hidden="true"></i>
+                                                                            <div id="Num3"></div>
                                                                 </div>
                                                         </div>
                                     </div>
@@ -1620,6 +1658,12 @@ s = s.substring(0, n != -1 ? n : s.length);
                 // $('.dpdown').collapse('hide');
             });
 
+
+            setInterval(() => {
+                document.getElementById("Num1").innerHTML = Math.floor(Math.random()*(999-100+1)+100);
+                document.getElementById("Num2").innerHTML = Math.floor(Math.random()*(999-100+1)+100);
+                document.getElementById("Num3").innerHTML = Math.floor(Math.random()*(999-100+1)+100);
+            }, 1000);
 
 
 
